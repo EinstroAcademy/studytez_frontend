@@ -8,7 +8,7 @@ function Home() {
    
     <div className="container-fluid">
        <Helmet>
-       <title>Home</title>
+       <title>Home | Studytez | Study in UK, USA, Canada, Australia & Europe</title>
        <meta name="description" content="Helmet application" />
       </Helmet>
       <div className="home-container">
