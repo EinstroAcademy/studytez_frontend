@@ -1,0 +1,210 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:transparent;
+    padding: 30px;
+    width: 450px;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  ::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .form button {
+    align-self: flex-end;
+  }
+  
+  .flex-column > label {
+    color: #151717;
+    font-weight: 600;
+  }
+  
+  .inputForm {
+    border: 1.5px solid #ecedec;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .input {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 85%;
+    height: 100%;
+    background-color: transparent;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .inputForm:focus-within {
+    border: 1.5px solid #2d79f3;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .flex-row > div > label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+  }
+  
+  .span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #2d79f3;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button-submit {
+    margin: 20px 0 10px 0;
+    background-color: #151717;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .button-submit:hover {
+    background-color: #252727;
+  }
+  
+  .p {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .btn {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border: 1px solid #ededef;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    border: 1px solid #2d79f3;
+    ;
+  }
+
+  .right-form-box{
+    width: 50%;
+    margin: auto;
+  }
+  
+  .login-left-img{
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 100% 90%;
+    border-radius: 20px;
+  }
+  
+  .login-bg {
+    height: 100vh;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+.login-second-bg {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+  @keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}

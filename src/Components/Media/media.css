@@ -1,0 +1,49 @@
+.media{
+    font-size: 50px;
+}
+
+.tag {
+    display: inline-block;
+    font-size: 10px;
+    background-color: #e5e5e5;
+    color: hsl(0, 0%, 1%);
+    border-radius: 20px;
+    padding: 2px 12px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+
+  .learn-more-style {
+    text-decoration: none;
+    font-weight: 500;
+    color: #dd0e3a;
+    padding-bottom: 50px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+
+  .view-btn {
+    color: #2563eb;
+    padding: 7px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+  }
+
+  .media-img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  /* From Uiverse.io by satyamchaudharydev */ 
+  
+  

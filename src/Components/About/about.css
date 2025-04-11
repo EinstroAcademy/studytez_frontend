@@ -1,0 +1,50 @@
+
+.about-main{
+    margin-top: 150px;
+}
+.about-container {
+    display: flex;
+    height: 300vh;
+    position: relative;
+}
+
+.about-left {
+  width: 40%;
+  height: 100vh;
+  padding: 20px;
+}
+
+.about-right {
+    width: 60%;
+    height: 100vh;
+    position: sticky;
+    right: 0;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.about-right img{
+    width: 100%;
+}
+
+.about-head{
+    text-align: center;
+    font-size: 3rem;
+    color: #dd0e3a;
+}
+
+.about-right-child{
+    position:absolute;
+    width: 470px;
+    top: 18%;
+}
+
+.about-left-content{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}

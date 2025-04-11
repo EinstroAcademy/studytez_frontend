@@ -1,0 +1,99 @@
+.touch-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #f0f0f0;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-top: 100px;
+  }
+  
+  .touch-container::before,
+  .touch-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+        circle at top left,
+        rgba(255, 150, 150, 0.6) 10%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at bottom right,
+        rgba(100, 150, 255, 0.6) 10%,
+        transparent 50%
+      ),
+      repeating-linear-gradient(
+        45deg,
+        rgba(255, 100, 100, 0.3),
+        rgba(255, 100, 100, 0.3) 30px,
+        transparent 30px,
+        transparent 60px
+      );
+    z-index:0 ;
+  }
+  
+  .touch-container .shape {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #ff7f50, #ff6347);
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    animation: rotateShape 5s infinite linear;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes rotateShape {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
+  .touch-container .shape:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(135deg, #6a5acd, #8a2be2);
+    top: 20%;
+    left: 30%;
+    clip-path: ellipse(50% 50% at 50% 50%);
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .touch-container .shape:nth-child(3) {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(45deg, #ff1493, #ff6347);
+    top: 70%;
+    left: 70%;
+    clip-path: polygon(10% 10%, 90% 10%, 100% 90%, 0% 90%);
+    transform: translate(-50%, -50%) rotate(-30deg);
+  }
+  
+.box {
+    border-radius: 30px;
+    position: relative;
+    z-index: 20;
+    padding: 20px 20px 0px 20px;
+}
+
+.left-text {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.left-image{
+   text-align: center;
+   
+}
+
+.touch-img{
+}

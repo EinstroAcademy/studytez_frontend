@@ -1,0 +1,44 @@
+.service-container{
+    width: 100%;
+    height: auto;
+    margin: 45px 0px;
+}
+
+.service-key{
+    background-color: #c5113e;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.service-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    color:rgb(197, 17, 62) ;
+}
+.service-accordion{
+    --bs-accordion-bg:transparent;
+    --bs-accordion-border-color:none;
+    --bs-accordion-active-bg:transparent;
+    --bs-accordion-btn-focus-box-shadow:none;
+    padding-left: 50px;
+}
+
+.service-accordion .accordion-button{
+    color: rgb(255, 255, 255);
+}
+
+.service-accordion .accordion-button:not(.collapsed){
+    color: white;
+}
+
+.service-accordion .accordion-button{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+}
+
+.service-right-img{
+    width: 100%;
+    height: 450px;
+    border-radius: 40px;
+}
