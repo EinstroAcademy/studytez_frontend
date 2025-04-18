@@ -8,6 +8,7 @@ import Main from './Components/Main/Main';
 import Login from './Components/Login/Login';
 import Signup from './Components/Signup/Signup';
 import CourseList from './Components/Course/CourseList';
+import University from './Components/University/University';
 
 function App() {
   const toastOptions = {
@@ -55,7 +56,8 @@ function App() {
         <Route path='/' element={<Main/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
-        <Route path='/course/list/:courseId' element={<CourseList/>}/>
+        <Route path='/course/list' element={<CourseList/>}/>
+        <Route path='/university' element={<University/>}/>
       </Routes>
       <Toaster
           position="bottom-center"

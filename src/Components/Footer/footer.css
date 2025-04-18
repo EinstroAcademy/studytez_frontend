@@ -1,73 +1,214 @@
-.footer-container{
-    margin-top: 5%;
-    height: 400px;
-    background-color: rgb(221, 14, 58);
-    border-radius: 20px;
-    
-}
-
-.left-content {
-    margin-top: 5%;
-}
-
-.left-content-wording-1{
-    margin-left: 4%;
+.footer {
+    background-color: #dd0e3a;
+    color: #fff;
+    padding: 20px;
+    height: fit-content;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 92%;
+  }
+  
+  .footer-logo-details{
+    margin: 20px;
+    width: 200px;
+    padding: 20px;
+  }
+  
+  
+  
+  .footer-company-details {
+    width: 35%;
+    padding: 20px;
+  }
+  .footer-link-details {
+    width: 25%;
+    padding: 20px;
+  }
+  
+  .footer-social-details {
+    margin-top: 20px;
+    width: 250px!important;
+    display: flex!important;
+  }
+  
+  .footer-logo {
+    width: 150px;
+  }
+  
+  .phone-rotate {
+    transform: rotate(90deg);
+  }
+  
+  .footer-address {
+    margin: 20px;
+    font-size: 18px;
+    font-family: "Metropolis-light", sans-serif;
     font-weight: 600;
-    font-size: x-large;
-}
-
-.left-content-wording-2{
-    width: 60%;
-    margin-left: 4%;
-    margin-top: 3%;
-
-}
-
-.left-content-icons{
-    margin-left: 4%;
-    margin-top: 6%;
-    width: 30%;
-}
-
-.right-content-line-1{
-    margin-top: 9%;
-}
-
-.right-content-line-1-heading{
-    font-weight: 700;
-}
-
-.right-content-line-1-wording{
-    line-height: 40px;
-}
-
-hr{
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-right: 2%;
+    color: white;
+  }
+  
+  .footer-contact {
+    margin: 20px;
+    font-size: 18px;
+    font-family: "Metropolis-light", sans-serif;
+    font-weight: 600;
+    color: white;
+  }
+  .footer-contact a{
+    text-decoration: none;
+    color: white;
+  }
+  .footer-mail a {
+    margin: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Metropolis-light", sans-serif;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+  
+  .footer-links ul{
+    padding: 0px;
+  }
+  
+  .footer-links li {
+    padding: 5px 0px;
+  }
+  
+  .footer-links li a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Metropolis-light", sans-serif;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  .footer-fb {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-social {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left:20px;
+    color: white;
+  }
+  
+  .ft-icon{
+    width: 26px;
+    height: 26px;
+    margin: 0px 10px 0px 0px;
+  }
+  
+  .copy-ryt{
+    font-family: "Metropolis-SemiBold", sans-serif;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    font-size: 11px;
+  }
+  
+  .copy-ryt a{
+    list-style: none;
+    list-style-type: none;
+    color: white;
+  }
+  
+  .footer-accordion .accordion .accordion-header{
+    background-color: #dd0e3a!important;
+    color: white;
+  }
+  
+  
+  
+  @media (max-width: 767px) {
    
-}
-
-
-.bottom-box{
-display: flex;
-align-items: center;
-justify-content: space-between;
-margin-top: 2%;
-
-}
-
-.bottom-box-left{
-padding-left: 2%;
-
-}
-
-.bottom-box-right{
-   
+    .footer-container {
+      flex-direction: column;
+      align-items: left;
+    }
+    .footer-logo{
+      margin: 20px 0px;
+    }
+  
+    .footer-address,.footer-contact,.footer-mail a{
+      font-size: 14px;
+      margin: 20px 0px;
+    }
+    .footer-company-details,
+    .footer-link-details {
+      width: 100%;
+      text-align: left;
+    }
+  
+    .footer-social-details {
+      width: 60%;
+      text-align: center;
+    }
+    .footer-links {
+      margin-top: 10px;
+      padding: 0px;
+    }
+  
+    .footer-links li a{
+      font-size: 14px;
+    }
+  
+    .copy-ryt{
+      font-size: 14px;
+    }
+  }
+  
+  /* Tablet screens */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .footer-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .footer-company-details,
+    .footer-link-details,
+    .footer-social-details {
+      width: 100%;
+      text-align: left;
+    }
+    .footer-company-details {
+      width: 50%;
+    }
+    .footer-link-details {
+      width: 30%;
+    }
+    .footer-social-details {
+      width: 20%;
+    }
+  }
+  
+  /* Laptop screens */
+  @media (min-width: 1025px) {
+    .footer-company-details {
+      width: 35%;
+    }
     
-    padding-right: 2%;
-    
-
-}
-
-
+    .footer-link-details {
+      width: 25%;
+    }
+    .footer-social-details {
+      width: 15%;
+      display: flex;
+      align-items: end;
+    }
+  }

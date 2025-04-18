@@ -1,84 +1,138 @@
 import React from 'react'
 import './footer.css'
+import logo from "../../Images/logo/Einstro-footer-logo.png";
+import address from "../../Images/icons/location2.png"
+import phone from "../../Images/icons/phone.png"
+import email from "../../Images/icons/footer-email.png"
 
 function Footer() {
   return (
-    <div class="container-fluid text-white">
-    <div class="container footer-container">
-        <div class="top-box">
-            <div class="row">
-                <div class="left-content col-6">
-                    <div class="left-content-wording-1">
-                      Einstro
-                    </div>
-                    <div class="left-content-wording-2">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum id deleniti cum sapiente
-                        itaque ipsa placeat odit dicta corporis quod!
-                    </div>
-                    <div class="left-content-icons">
-                        <div class="row">
-                            <div class="left-icon-1 col-3">1</div>
-                            <div class="left-icon-1 col-3">2</div>
-                            <div class="left-icon-1 col-3">3</div>
-                            <div class="left-icon-1 col-3">4</div>
-
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="right-content col-6">
-                    <div class="row">
-                        <div class="right-content-line-1 col-4">
-                            <div class="right-content-line-1-heading">Services</div>
-                            <div class="right-content-line-1-wording">Loan Assistance</div>
-                            <div class="right-content-line-1-wording">Visa Assistance</div>
-                            <div class="right-content-line-1-wording">Test Prep</div>
-                            <div class="right-content-line-1-wording">Counselling</div>
-                            <div class="right-content-line-1-wording">Scholarship Assistance</div>
-
-                        </div>
-                        <div class="right-content-line-1  col-4">
-                            <div class="right-content-line-1-heading">Quick links</div>
-                            <div class="right-content-line-1-wording"> About us</div>
-                            <div class="right-content-line-1-wording">News</div>
-                            <div class="right-content-line-1-wording">blogs</div>
-                            <div class="right-content-line-1-wording">FAQs</div>
-                            <div class="right-content-line-1-wording">Contact us </div>
-
-
-                        </div>
-                        <div class="right-content-line-1 col-4">
-                            <div class="right-content-line-1-heading">Contact Info</div>
-                            <div class="right-content-line-1-wording">+91 9116934202</div>
-                            <div class="right-content-line-1-wording">support@vidysea.com</div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-            <hr />
+    <div className="container-fluid mt-5 footer">
+    <div className="footer-container">
+      <div className="footer-logo-details">
+        <img src={logo} alt="logo" className="footer-logo" loading="lazy" />
+        <h6 className="mt-4">
+          Since 2014, we have been helping students fulfil their study abroad
+          dreams.
+        </h6>
+        <div className="footer-social-details">
+          <a
+            href="https://www.facebook.com/einstroacademy"
+            target="_blank"
+            className="footer-fb"
+          >
+            <i className="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/einstrostudyabroad/"
+            target="_blank"
+            className="footer-social"
+          >
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/showcase/einstrostudyabroad/"
+            target="_blank"
+            className="footer-social"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
         </div>
-        <div class="bottom-box">
-
-            <div class="bottom-box-left">
-                copyright@vidysea
-            </div>
-            <div class="bottom-box-right ">
-                Privacy Policy Terms & Conditions
-            </div>
-
-
-
-
+      </div>
+      <div className="footer-company-details">
+        <div className="footer-address">
+          <img src={address} className="ft-icon" loading="lazy" />
+          No. 4/636 A, VOC Street, PTC, Thuraipakkam (OMR), Chennai - 600 097,
+          Tamil Nadu, India.
         </div>
-
+        <div className="footer-contact">
+          <img src={phone} className="ft-icon" />
+          <a href="tel:8925565861">8925565861</a>
+        </div>
+        <div className="footer-mail">
+          <a href="mailto:info@einstrostudyabroad.com">
+            <img src={email} className="ft-icon" />
+            Einstro Study Abroad
+          </a>
+        </div>
+      </div>
+      <div className="footer-link-details">
+        <div>
+          <ul className="footer-links">
+            <li>
+              <a onClick={() => navigate("/")}>Home</a>
+            </li>
+            <li>
+              <a onClick={() => navigate("/about")}>About Us</a>
+            </li>
+            <li>
+              <a onClick={() => navigate("/course")}>Find Course</a>
+            </li>
+            <li>
+              <li className="footer-accordion">
+                <a onClick={() => navigate("/blog")}>Blog</a>
+              </li>
+            </li>
+            <li>
+              <a onClick={() => navigate("/contact")}>Contact Us</a>
+            </li>
+            <li>
+              <a href="#testimonial">Testimonials</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="footer-link-details">
+        <ul className="footer-links">
+          <h5>
+            <u>Study Destinations</u>
+          </h5>
+          <li>
+            <a onClick={() => navigate("destination/study-in-UK")}>
+              {" "}
+              Study in UK
+            </a>
+          </li>
+          <li>
+            <a onClick={() => navigate("destination/study-in-USA")}>
+              Study in USA
+            </a>
+          </li>
+          <li>
+            <a onClick={() => navigate("destination/study-in-Australia")}>
+              Study in Australia
+            </a>
+          </li>
+          <li>
+            <a onClick={() => navigate("destination/study-in-Canada")}>
+              {" "}
+              Study in Canada
+            </a>
+          </li>
+          <li>
+            <a onClick={() => navigate("destination/study-in-Germany")}>
+              Study in Germany
+            </a>
+          </li>
+          <li>
+            <a onClick={() => navigate("destination/study-in-Ireland")}>
+              Study in Ireland
+            </a>
+          </li>
+          <li>
+            <a onClick={() => navigate("destination/study-in-France")}>
+              {" "}
+              Study in France
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-</div>
+    <div className="copy-ryt">
+      &copy; {new Date().getFullYear()} Einstro Study Abroad | All Rights
+      Reserved | powered by Einstro
+    </div>
+  </div>
   )
 }
 
