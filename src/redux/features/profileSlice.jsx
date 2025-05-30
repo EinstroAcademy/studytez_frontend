@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { redirect } from 'react-router-dom';
+import { NodeURL } from '../../api/api';
 
 
 
@@ -15,7 +16,7 @@ const initialState = {
 export const fetchUser = () => async (dispatch) => {
   dispatch(fetchUserStart());
   try {
-    const response = await axios.post('http://localhost:4000/get/user',{token:localStorage.getItem('app-token')},{
+    const response = await axios.post(`${NodeURL}/get/user`,{token:localStorage.getItem('app-token')},{
         headers:{
             Authorization:localStorage.getItem('app-token')
         }
