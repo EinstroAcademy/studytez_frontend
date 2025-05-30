@@ -1,0 +1,153 @@
+.country-main{
+  margin: 20px 0px;
+}
+
+.country-card{
+    width: 25%;
+    height: 480px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    background-color:#10154e;
+    padding: 20px 20px;
+}
+
+.country-slide{
+    border-radius: 30px;
+    padding: 5px;
+    height: 350px;
+    background: transparent;
+}
+
+.country-main h1{
+    color: #10154e;
+    text-align: center;
+    font-family: "Metropolis-Bold", sans-serif;
+}
+
+.swiper-slide .country-image{
+    border-radius: 30px;
+    width: 370px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 100% 10%;
+}
+
+.country-content{
+    padding: 20px 10px;
+    font-size: 20px;
+    font-family: "Metropolis-Light", sans-serif;
+
+}
+
+.country-content h2{
+    text-align: center;
+    color: #10154e;
+    font-weight: 500;
+    font-family: "Metropolis-SemiBold", sans-serif;
+    
+}
+
+.country-swiper{
+  height: 280px;
+  margin: 30px 0px;
+}
+
+.swiper-slide{
+    background: transparent;
+}
+
+.swiper-3d .swiper-slide-shadow-left{
+    background-image: none!important;
+}
+
+.swiper-3d .swiper-slide-shadow-right{
+    background-image: none!important;
+}
+
+.swiper-slide-uni{
+    width: 350px!important;
+    height: 300px;
+    flex-wrap: wrap;
+    background: transparent;   
+  }
+.swiper-wrapper{
+    background: transparent;
+}
+
+
+
+
+/* Laptop */
+@media screen and (max-width: 1460px) {
+    .country-card {
+      width: 40%;
+      height: 350px;
+      margin: 15px 10px;
+    }
+  
+    .swiper-slide .country-image {
+        width: 250px;
+        height: 180px;
+    }
+  
+    .country-content {
+      font-size: 18px;
+    }
+  
+    .country-content h2 {
+      font-size: 22px;
+    }
+  }
+  
+  /* Tablet */
+  @media screen and (max-width: 768px) {
+    .country-card {
+      width: 45%;
+      height: 320px;
+      margin: 10px 5px;
+    }
+  
+    .swiper-slide .country-image {
+      width: 250px;
+      height: 180px;
+    }
+  
+    .country-content {
+      font-size: 16px;
+    }
+  
+    .country-content h2 {
+      font-size: 20px;
+    }
+  }
+  
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    .country-main h1{
+        font-size: 18px;
+    }
+    .country-card {
+      width: 90%;
+      height: auto;
+      margin: 10px 0px;
+    }
+  
+    .country-swiper .swiper-slide .country-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .country-content {
+      font-size: 14px;
+    }
+  
+    .country-content h2 {
+      font-size: 18px;
+    }
+  
+    .swiper-slide-uni {
+      width: 60% !important;
+      height: auto;
+      margin: auto;
+    }
+  }

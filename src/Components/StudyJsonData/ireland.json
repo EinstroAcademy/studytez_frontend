@@ -1,0 +1,212 @@
+{
+  "part1": {
+    "title": "Study in Ireland",
+    "subtitle": "The Best Study Abroad Consultancy for Ireland",
+    "services": [
+      "Get free counselling",
+      "University and Course Selection",
+      "Application",
+      "Visa Process"
+    ],
+    "cta": {
+      "text": "Enroll Now",
+      "url": "#"
+    },
+    "images": {
+      "description": "Kangaroo on beach",
+      "url": "/studyImages/ireland/ireland-main.png"
+    },
+    "designElements": [
+      {
+        "shape": "hexagon",
+        "color": "#D92027"
+      },
+      {
+        "shape": "hexagon",
+        "color": "#D92027"
+      },
+      {
+        "shape": "hexagon",
+        "color": "#D92027"
+      }
+    ]
+  },
+  "part2": {
+    "imagePlace": "left",
+    "title": "Why Study in Ireland?",
+    "introduction": "Ireland is the greatest country to study in for Indian students who want to further their studies in Europe. Ireland has a reputation for academic quality, a beautiful landscape, kind people, and a rich tradition. There are numerous advantages to studying in Ireland. Because of the numerous opportunities offered to international students, it is a popular choice for many students. One of the primary advantages of studying in Ireland is that it has a well-regarded educational system that places a premium on skill development and entrepreneurial abilities. Hundreds of top U.S. companies have been established in Ireland due to low taxes, a highly qualified workforce, economic and political stability, and access to European markets and consumers.",
+    "benefits": [
+      {
+        "text": "Education Quality"
+      },
+      {
+        "text": "Top Ranking Universities"
+      },
+      {
+        "text": "Affordable Tuition Fees"
+      },
+      {
+        "text": "Amazing Career Opportunities"
+      },
+      {
+        "text": "Friendly Culture"
+      }
+    ],
+    "images": {
+      "description": "Kangaroo on beach",
+      "url": "/studyImages/ireland/ireland-sub.png"
+    }
+  },
+  "universities": [
+    {
+      "name": "Galway Business School",
+      "image": "/studyImages/ireland/galway-business-school.jpg"
+    },
+    {
+      "name": "University of Cork",
+      "image": "/studyImages/ireland/university-of-cork.jpg"
+    },
+    {
+      "name": "Munster Technological University",
+      "image": "/studyImages/ireland/munster-technological-university.jpg"
+    },
+    {
+      "name": "University College Dublin",
+      "image": "/studyImages/ireland/university-of-college-dublin.jpg"
+    },
+    {
+      "name": "Technological University Dublin",
+      "image": "/studyImages/ireland/tu-dublin.jpg"
+    },
+    {
+      "name": "Limerick Institute of Technology",
+      "image": "/studyImages/ireland/limerick.jpg"
+    },
+    {
+      "name": "Trinity College Dublin",
+      "image": "/studyImages/ireland/trinity.jpg"
+    },
+    {
+      "name": "Maynooth University",
+      "image": "/studyImages/ireland/maynooth-univ.jpg"
+    },
+    {
+      "name": "Royal College of Surgeons",
+      "image": "/studyImages/ireland/royal-college-of-surgeons.jpg"
+    },
+    {
+      "name": "Dublin Business School",
+      "image": "/studyImages/ireland/dublin-business-school.jpg"
+    },
+    {
+      "name": "Griffith College",
+      "image": "/studyImages/ireland/griffith-college.jpg"
+    },
+    {
+      "name": "National College of Ireland",
+      "image": "/studyImages/ireland/national-college-of-ireland.jpg"
+    }
+  ],
+  "courses": {},
+  "sub_nav": true,
+  "reqImage": "/studyImages/ireland/ireland_req.png",
+  "admission_requirements": {
+    "course": [
+      {
+        "name": "",
+        "details": "<p>Depending on the university you are applying to, admission criteria may vary. Moreover, the course you choose could also have additional prerequisites.</p><p>Before beginning the application process, it is advisable to verify with your university and keep those documents handy. It is important to pay special attention to their application procedure, fees, and deadlines because different colleges may have different entrance standards and course offerings. Always apply at least 4-6 months before the last date to get a fair chance at consideration.</p><p>Some of the mandatory documents asked by universities during the application process are:</p><ul><li>Proof of a minimum of 55%-75% in Graduation and 12th Grade</li><li>Academic transcripts /Certificates</li><li>English language tests such as IELTS, Duolingo or PTE are accepted</li><li>Statement of Purpose (SOP)</li><li>Letter of Recommendation</li><li>Resume</li><li>For Working Professionals: Offer letter and payslips</li></ul>"
+      }
+    ],
+    "exams_required": {}
+  },
+  "intake": [
+    {
+      "name": "September Intake (Autumn/Fall Semester):",
+      "details": [
+        "The primary intake period, September intake, is the most popular among international students. ",
+        "It aligns with the start of the academic year in Ireland and offers a wide range of courses across various disciplines. ",
+        "Many universities open applications for the September intake several months in advance, often starting as early as the previous year."
+      ]
+    },
+    {
+      "name": "January Intake (Spring Semester):",
+      "details": [
+        "Some universities in Ireland also offer a January intake for certain courses. While not as common as the September intake, the January intake provides an additional opportunity for students who missed the September deadline or prefer to start their studies in the spring semester. The availability of courses for the January intake may vary depending on the institution and program."
+      ]
+    }
+  ],
+  "cost": {
+    "description": "<p>Ireland is already stunning, and it gets even better with its affordability. Overseas students are drawn to Ireland because its tuition and living costs are significantly cheaper compared to other European nations. While there are schools and programs with expensive tuition, with the right research and guidance from counsellors, you can find an institution that suits your needs and financial situation.</p><p>Tuition costs vary: For undergraduate programs, they generally range from €2,250 to €9,850, while for postgraduate programs, they range from €9,950 to €35,000. Many universities offer on-campus accommodation, but if it's too expensive, you can opt for private accommodation and share it with roommates to keep costs low. Additionally, students are allowed to work for up to 20 hours a week on their study permit, which can significantly help cover living expenses.</p>",
+    "table_headings": ["Degree", "Average Cost in Euro", "Average Cost in INR"],
+    "cost_per_year": [
+      {
+        "degree": "Diploma",
+        "costInGBP": "€5,000 - €10,000",
+        "costInINR": "₹9,50,000 - ₹28,50,000"
+      },
+      {
+        "degree": "Undergraduate Degree",
+        "costInGBP": "€10,000 - €25,000",
+        "costInINR": "₹8,30,000 - ₹20,75,000"
+      },
+      {
+        "degree": "Postgraduate Degree",
+        "costInGBP": "€10,000 - €30,000",
+        "costInINR": "₹8,30,000 - ₹25,00,000"
+      },
+      {
+        "degree": "PhD",
+        "costInGBP": "€12,000 - €35,000",
+        "costInINR": "₹9,96,000 - ₹29,05,000"
+      }
+    ]
+  },
+  "visa_requirements": {
+    "description": "<h6>Ireland Student Visa Requirements</h6><p>Applying for a student visa to study in Ireland involves meeting specific requirements and preparing various documents. Here’s a comprehensive guide to help you understand the process:</p><h6>1. Acceptance to an Irish Educational Institution</h6><ul><li><strong>Acceptance Letter:</strong> Obtain an acceptance letter from a recognized Irish educational institution, confirming your enrollment in a full-time course.</li></ul><h6>2. Proof of Financial Support</h6><ul><li><strong>Proof of Funds:</strong> Demonstrate that you have sufficient funds to cover your tuition fees and living expenses for the duration of your studies. Generally, you need to show:<ul><li>€10,000 for each year of study, in addition to tuition fees.</li><li>Bank statements, financial sponsorship letters, or evidence of educational loans can be used to show proof of funds.</li></ul></li></ul><h6>3. Medical Insurance</h6><ul><li><strong>Health Insurance:</strong> Obtain private medical insurance that covers you for the duration of your stay in Ireland.</li></ul><h6>4. Passport</h6><ul><li><strong>Passport:</strong> A valid passport or travel document. Ensure your passport is valid for at least six months beyond your intended stay in Ireland.</li></ul><h6>5. Visa Application Form</h6><ul><li><strong>Online Application:</strong> Complete the online visa application form on the AVATS (Irish Naturalisation and Immigration Service's online visa application facility).</li><li><strong>Summary Form:</strong> Print and sign the summary form generated after you complete the online application.</li></ul><h6>6. Visa Application Fee</h6><ul><li><strong>Application Fee:</strong> Pay the non-refundable visa application fee. The fee can vary depending on the type of visa and the country of application.</li></ul><h6>7. Supporting Documents</h6><p>Prepare the following supporting documents:</p><ul><li><strong>Application Summary Form:</strong> Signed summary form from the online application.</li><li><strong>Passport-Sized Photos:</strong> Two recent passport-sized photos that meet Irish visa requirements.</li><li><strong>Proof of Acceptance:</strong> Acceptance letter from the Irish educational institution.</li><li><strong>Proof of Funds:</strong> Bank statements or financial sponsorship letters.</li><li><strong>Health Insurance:</strong> Proof of medical insurance.</li><li><strong>Academic Documents:</strong> Transcripts, diplomas, degrees, or certificates from previous institutions.</li><li><strong>English Language Proficiency:</strong> Proof of English language proficiency through tests like IELTS or TOEFL, if required by the institution.</li><li><strong>Cover Letter:</strong> A cover letter explaining your study plans, your reasons for choosing Ireland, and your plans after completing the course.</li><li><strong>Proof of Payment of Tuition Fees:</strong> Receipts or bank statements showing payment of tuition fees, if applicable.</li></ul><h6>8. Biometrics and Photograph</h6><ul><li><strong>Biometrics:</strong> Provide your fingerprints and a photograph if required. This depends on the country you are applying from.</li></ul><h6>9. Submit the Application</h6><ul><li><strong>Submit Documents:</strong> Send your application and supporting documents to the appropriate visa office or embassy as directed in the application summary form.</li><li><strong>Processing Time:</strong> Processing times can vary, so apply well in advance of your course start date.</li></ul><h6>10. Attend the Visa Interview (if required)</h6><ul><li><strong>Interview:</strong> In some cases, you may be required to attend an interview with a visa officer.</li></ul><h6>11. Decision and Collection</h6><ul><li><strong>Decision Notification:</strong> You will be notified of the decision on your visa application. If approved, you will receive your passport with the visa stamp.</li><li><strong>Visa Collection:</strong> Collect your visa from the designated visa office or embassy.</li></ul><h6>12. Prepare for Departure</h6><ul><li><strong>Travel Arrangements:</strong> Make travel arrangements to Ireland.</li><li><strong>Documents for Travel:</strong> Keep your passport, visa, acceptance letter, proof of funds, and any other important documents in your carry-on luggage.</li></ul><h6>13. Arrival in Ireland</h6><ul><li><strong>Border Control:</strong> Present your documents to the immigration officer at the port of entry in Ireland.</li><li><strong>Registration with GNIB:</strong> If you are staying in Ireland for more than 90 days, you must register with the Garda National Immigration Bureau (GNIB) and obtain an Irish Residence Permit (IRP).</li></ul>",
+    "list": []
+  },
+  "scholarship": {
+    "content": "<div class=\"container\"><p>Government Scholarships:</p><ul><li><strong>Government of Ireland International Education Scholarships:</strong><ul><li>Offered by the Irish government to international students, including Indian students, to pursue a master's or PhD degree in Ireland.</li><li>Covers a stipend of &euro;10,000, full tuition fees, and other benefits.</li><li>Applications are typically open annually, and selection is based on academic merit and potential contribution to Ireland's society.</li></ul></li></ul><p>University Scholarships:</p><ul><li><strong>Trinity College Dublin Scholarships:</strong><ul><li>Trinity College Dublin offers various scholarships, including the Global Excellence Undergraduate Scholarship and the Trinity International Postgraduate Scholarship.</li><li>These scholarships provide partial tuition fee waivers to outstanding international students, including those from India.</li><li>Eligibility criteria and application procedures vary for each scholarship.</li></ul></li><li><strong>University College Dublin (UCD) Scholarships:</strong><ul><li>UCD offers scholarships such as the UCD Global Excellence Graduate Scholarships and the UCD Global Graduate Access Programme (GAP) Scholarships.</li><li>These scholarships support international students, including Indian students, by providing financial assistance towards tuition fees or living expenses.</li><li>Eligibility criteria and application processes differ for each scholarship.</li></ul></li></ul><p>External Scholarships:</p><ul><li><strong>Fulbright-Nehru Fellowships:</strong><ul><li>Offered by the United States-India Educational Foundation (USIEF) and the U.S. Department of State's Bureau of Educational and Cultural Affairs.</li><li>Provides opportunities for Indian students, scholars, and professionals to study, research, or teach in the United States and Ireland.</li><li>Eligibility criteria and application procedures are specified by the Fulbright-Nehru Program.</li></ul></li><li><strong>Commonwealth Scholarships:</strong><ul><li>Administered by the Commonwealth Scholarship Commission in the United Kingdom (CSC).</li><li>Available to Indian students for postgraduate study in Ireland under the Commonwealth Scholarship and Fellowship Plan (CSFP).</li><li>Selection is based on academic merit and potential to contribute to the development of the home country.</li></ul></li></ul><p>Institution-specific Scholarships:</p><ul><li><strong>Dublin City University (DCU) Scholarships:</strong><ul><li>DCU offers various scholarships, such as the DCU International Merit Scholarships, to attract high-achieving international students, including Indian students.</li><li>These scholarships provide financial assistance towards tuition fees for undergraduate and postgraduate programs.</li><li>Eligibility criteria and application procedures are outlined by the university.</li></ul></li><li><strong>National University of Ireland, Galway (NUIG) Scholarships:</strong><ul><li>NUIG offers scholarships like the India Global Excellence Scholarship to Indian students based on academic achievement.</li><li>These scholarships aim to support Indian students in pursuing their academic goals at NUIG.</li><li>Eligibility criteria and application details are provided by the university.</li></ul></li></ul> </div>"
+  },
+  "post_study": {
+    "description": "<div class=\"container\"><p>Indian students studying in Ireland have access to excellent post-study work opportunities. Upon graduation, they can apply for the Third Level Graduate Scheme, allowing them to stay in Ireland for up to 24 months to seek employment or start their own business. Additionally, graduates may apply for work permits such as the Critical Skills Employment Permit or the General Employment Permit to secure jobs related to their field of study. Entrepreneurial-minded graduates can explore programs like the Start-up Entrepreneur Program or the Graduate Entrepreneur Visa to establish their businesses in Ireland. These post-study work options, coupled with networking opportunities and career support services, provide Indian students with a pathway to launch successful careers in Ireland after completing their studies.</p></div>",
+    "jobs": [
+      {
+        "jobTitle": "Information Technology",
+        "averageAnnualSalaryGBP": "€35,000 - €60,000"
+      },
+      {
+        "jobTitle": "Engineering",
+        "averageAnnualSalaryGBP": "€40,000 - €70,000"
+      },
+      {
+        "jobTitle": "Healthcare",
+        "averageAnnualSalaryGBP": "€30,000 - €50,000"
+      },
+      {
+        "jobTitle": "Finance and Accounting",
+        "averageAnnualSalaryGBP": "€40,000 - €70,000"
+      },
+      {
+        "jobTitle": "Business and Management",
+        "averageAnnualSalaryGBP": "€35,000 - €60,000"
+      },
+      {
+        "jobTitle": "Research and Development",
+        "averageAnnualSalaryGBP": "€35,000 - €60,000"
+      },
+      {
+        "jobTitle": "Hospitality and Tourism",
+        "averageAnnualSalaryGBP": "€25,000 - €40,000"
+      },
+      {
+        "jobTitle": "Sales and Marketing",
+        "averageAnnualSalaryGBP": "€30,000 - €50,000"
+      },
+      {
+        "jobTitle": "Creative Industries",
+        "averageAnnualSalaryGBP": "€25,000 - €45,000"
+      }
+    ]
+  }
+}

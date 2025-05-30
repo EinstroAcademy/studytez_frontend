@@ -61,7 +61,7 @@ function Home() {
 
       <div className="home-container">
         <div className="row align-items-center justify-content-between">
-          <div className="col-6">
+          <div className="col-sm-12 col-md-6 col-lg-6">
             <div className="home-left-content">
               <h1 className="home-main-content">
                 Your guide to <span>studying abroad</span> all in one spot!

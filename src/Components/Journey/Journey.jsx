@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './journey.css'
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Pagination } from 'swiper/modules';
-import roadmap from '../../Images/home/roadmap.png'
-import expert from '../../Images/home/expert1.png'
+import search from '../../Images/home/search.png'
+import councellors from '../../Images/home/counsellor.png'
+import university from '../../Images/home/university.png'
+import { useNavigate } from 'react-router-dom';
+import EnquiryForm from '../floatingMenu/EnquiryForm';
 
 function Journey() {
+  const navigate = useNavigate();
+  const [isEnquiry,setIsEnquiry] =useState(false)
   return (
     <div className="container my-5">
       <div className="journey-slides-box">
@@ -23,58 +28,38 @@ function Journey() {
           className="journeySwiper"
         >
           <SwiperSlide>
-            <div className="journey-card">
-              <div className="d-flex ">
-                <div className="roadmap-content">Create Your Roadmap</div>
+            <div className="journey-card" onClick={()=>navigate('/course/list')}>
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="roadmap-content">Search and Apply to Top Universities</div>
                 <div>
-                  <img src={roadmap} className="roadmap-img" />
+                  <img src={search} className="roadmap-img" />
                 </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="journey-expert-card">
-              <div className="d-flex ">
-                <div className="expert-content">Ask an Expert</div>
+            <div className="journey-expert-card" onClick={()=>setIsEnquiry(!isEnquiry)}>
+            <div className="d-flex justify-content-between align-items-center">
+                <div className="expert-content">Talk to our Expert Counsellors</div>
                 <div>
-                  <img src={expert} className="expert-img" />
+                  <img src={councellors} className="expert-img" />
                 </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="journey-expert-card">
-              <div className="d-flex ">
-                <div className="expert-content">Read our blogs</div>
+            <div className="journey-expert-card" onClick={()=>navigate('/blog')}>
+            <div className="d-flex justify-content-between align-items-center">
+                <div className="expert-content">Read our Blogs</div>
                 <div>
-                  <img src={expert} className="expert-img" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="journey-card">
-              <div className="d-flex ">
-                <div className="roadmap-content">Find your path</div>
-                <div>
-                  <img src={roadmap} className="roadmap-img" />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="journey-expert-card">
-              <div className="d-flex ">
-                <div className="expert-content">Explore courses</div>
-                <div>
-                  <img src={expert} className="expert-img" />
+                  <img src={university} className="expert-img" />
                 </div>
               </div>
             </div>
           </SwiperSlide>
         </Swiper>
       </div>
-    
+          <EnquiryForm isEnquiry={isEnquiry} setIsEnquiry={setIsEnquiry} />
     </div>
   );
 }

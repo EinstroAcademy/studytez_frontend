@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/nav-logo.png" />
+    <link rel="icon" type="image/svg+xml" href="/studytezorg.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
       Studytez | Study in UK, USA, Canada, Australia & Europe
@@ -59,6 +59,23 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.jsx">
+
+    </script>
+    <script>
+      document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+
+  const params = new URLSearchParams(window.location.search);
+    const token = params.get("token");
+
+    if (token && window.opener) {
+      window.opener.postMessage({ token }, "http://localhost:5173");
+      window.close();
+    }
+    </script>
   </body>
 </html>

@@ -1,0 +1,364 @@
+.about-heads{
+    width: 100%;
+    text-align: center;
+}
+
+.about-main-bg{
+    /* background-color: #5F1D2B; */
+}
+
+/* .about-bg{
+    position: absolute;
+    top: 450px;
+    background-color: #801A1E;
+    max-width: 100%;
+    height: 700px;
+    border-radius: 60%;
+} */
+.about-content{
+    width: 100%;
+    text-align: left;
+    font-family: "Metropolis-SemiBold", sans-serif;
+    color: #6e6e6e;
+    margin: 20px auto;
+}
+.about-content h1,p{
+ padding: 20px 0px;
+}
+.about-content h1{
+    color: #10154e;
+}
+
+.about-content p{
+    line-height: 35px;
+    color: #6e6e6e;
+}
+
+
+
+.work-img{
+    width: 650px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 65% 10%;
+    margin: 40px 0px;
+}
+
+
+.about-second{
+    /* background-color: #5F1D2B; */
+    margin: 20px 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-sec-bg{
+    position: absolute;
+    background-color: #801A1E;
+    width: 500px;
+    height: 500px;
+    top: -32%;
+    left: 402px;
+    border-radius: 50%;
+}
+
+.about-sec-content{
+    text-align: center;
+    margin-top: 50px;
+}
+.about-sec-head{
+    text-align: center;
+}
+
+.about-sec-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    margin:20px  auto;
+}
+
+.about-sec-head h1{
+    font-family: "Metropolis-SemiBold", sans-serif;
+    color: #10154e;
+    z-index: 2000;
+}
+
+.circle-img{
+    margin: 10px;
+    width: 90%;
+}
+
+.about-sec-box{
+    color: #10154e;
+    font-family: "Metropolis-Medium", sans-serif;
+    width: 90%;
+    margin: auto;
+}
+
+.about-sec-box p{
+    color: #6e6e6e;
+}
+
+.about-third-bg{
+    position: absolute;
+    background-color: rgb(128, 26, 30);
+    width:80%;
+    height: 350px;
+    top: -30%;
+    left: 11%;
+    border-radius: 60%;
+    z-index: 2;
+}
+
+.about-third-head{
+    height: 100px;
+}
+
+.about-third-head h1{
+    position: absolute;
+    left: 43%;
+    top:6%;
+    font-family: "Metropolis-SemiBold", sans-serif;
+    color: #5F1D2B;
+    z-index: 2000;
+}
+
+.contact-head{
+    /* background-color: #5F1D2B; */
+    text-align: center;
+    overflow: hidden;
+}
+
+.contact-img{
+    width: 800px;
+    height: 390px;
+    object-fit: cover;
+    object-position: 100% 10%;
+}
+
+.contact-bg{
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    background-color: #801A1E;
+    width: 600px;
+    height: 600px;
+    border-radius: 60%;
+    overflow: hidden;
+}
+
+.contact-circle-img{
+    position: absolute;
+    top: -10px;
+    left: 150px;
+    width: 500px;
+    height: 500px;
+    background-color: #D12716;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.contact-content{
+    z-index: 2000;
+    width: 90%;
+    text-align: center;
+    font-family: "Metropolis-SemiBold", sans-serif;
+    color: #5F1D2B;
+    margin: 10px auto;
+}
+
+.contact-btn{
+    font-family: "Metropolis-Medium", sans-serif;
+    padding: 7px 30px;
+  margin: 0 40px;
+  border: 2px solid #dd0e3a;
+  border-radius: 10px;
+  color: #dd0e3a;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #dd0e3a;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-btn-send{
+    font-family: "Metropolis-Medium", sans-serif;
+    padding: 7px 10px;
+  margin: 0 40px;
+  border: 2px solid #dd0e3a;
+  border-radius: 10px;
+  color: #dd0e3a;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #dd0e3a;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-btn-send img{
+    width: 25px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.contact-country{
+    width: 90%;
+    text-align: center;
+    margin:30px auto;
+}
+
+.contact-country h1{
+    font-family: "Metropolis-SemiBold", sans-serif;
+    color: #10154e;
+    font-size: 35px;
+}
+
+.contact-country p{
+    font-family: "Metropolis-Medium", sans-serif;
+    color: #10154e;
+}
+
+.about-ico{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 100%;
+}
+
+.about-ratio h4{
+    font-family: "Metropolis-Medium", sans-serif;
+    color: #10154e;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    .contact-img {
+        width: 700px;
+        height: 370px;
+        object-fit: cover;
+        object-position: 100% 10%;
+    }
+}
+
+/* Media queries for tablet screens */
+@media screen and (max-width: 1024px) {
+    .about-head {
+        height: 600px;
+    }
+
+    .work-img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .about-sec-bg {
+        width: 400px;
+        height: 400px;
+        left: 200px;
+    }
+
+    .contact-img {
+        width: 600px;
+        height: 300px;
+    }
+
+    .contact-bg {
+        width: 500px;
+        height: 500px;
+        left: 150px;
+    }
+
+    .contact-circle-img {
+        width: 400px;
+        height: 400px;
+        left: 100px;
+    }
+}
+
+/* Media queries for mobile screens */
+@media screen and (max-width: 768px) {
+    .about-head {
+        height: 400px;
+    }
+
+    .about-content p {
+        line-height: 28px;
+    }
+
+    .work-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-sec-bg {
+        width: 300px;
+        height: 300px;
+        left: 100px;
+    }
+
+    .contact-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-bg {
+        width: 400px;
+        height: 400px;
+        left: 50px;
+    }
+
+    .contact-circle-img {
+        width: 300px;
+        height: 300px;
+        left: 25px;
+    }
+
+    .contact-btn, .contact-btn-send {
+        margin: 10px;
+    }
+    .contact-country img{
+        width: 450px;
+        height: 200px;
+    }
+}
+
+/* Media queries for smaller mobile screens */
+@media screen and (max-width: 480px) {
+    .about-head {
+        height: 300px;
+    }
+
+    .work-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-sec-bg {
+        width: 200px;
+        height: 200px;
+        left: 50px;
+    }
+
+    .contact-bg {
+        width: 300px;
+        height: 300px;
+        left: 25px;
+    }
+
+    .contact-circle-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .contact-btn, .contact-btn-send {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+    .contact-country img{
+        width: 270px;
+        height: 200px;
+    }
+}

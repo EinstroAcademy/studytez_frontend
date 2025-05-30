@@ -1,12 +1,12 @@
 .course-container{
-    width: 60%;
-    margin: 100px auto;
+    width: 80%;
+    margin: 30px auto;
   }
 
   .topbar{
-    position: sticky;
+    /* position: sticky;
     position: -webkit-sticky;
-    top: 97px;
+    top: 100px; */
     z-index: 1000;
     background-color: #C5113E;
     padding: 20px;
@@ -16,14 +16,13 @@
   }
   
   .filter-btn {
+    font-size: 12px;
+    padding: 8px 15px;
     background-color: white;
-    color: black;
-    border: none;
-    border-radius: 30px;
-    padding: 10px 25px;
-    font-weight: 500;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #C5113E;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
   }
   
   .filter-btn:hover {
@@ -41,9 +40,8 @@
   }
   
   .card {
-    border-radius: 30px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
     background-color: #fff;
   }
   
@@ -76,11 +74,14 @@
   }
 
   .search-result-counts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 25px 10px ;
   }
 
   .search-result-counts span{ 
-    font-size: 20px;
+    font-size: 12px;
     margin: 0px 20px;
     padding: 8px 15px;
     background-color: white;
@@ -113,3 +114,517 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .course-card{
+    height: 220px;
+  }
+/* From Uiverse.io by alexruix */ 
+.loader {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+  position: relative;
+}
+
+.loader:before {
+  content: '';
+  width: 48px;
+  height: 5px;
+  background: #f0808050;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  border-radius: 50%;
+  animation: shadow324 0.5s linear infinite;
+}
+
+.loader:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #f08080;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  animation: jump7456 0.5s linear infinite;
+}
+
+@keyframes jump7456 {
+  15% {
+    border-bottom-right-radius: 3px;
+  }
+
+  25% {
+    transform: translateY(9px) rotate(22.5deg);
+  }
+
+  50% {
+    transform: translateY(18px) scale(1, .9) rotate(45deg);
+    border-bottom-right-radius: 40px;
+  }
+
+  75% {
+    transform: translateY(9px) rotate(67.5deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(90deg);
+  }
+}
+
+@keyframes shadow324 {
+
+  0%,
+    100% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.2, 1);
+  }
+}
+
+   /* From Uiverse.io by Li-Deheng */ 
+.btn-conteiner {
+  display: flex;
+  justify-content: center;
+  --color-text: #ffffff;
+  --color-background: #C5113E;
+  --color-outline: #ff145b80;
+  --color-shadow: #00000080;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  padding: 3px 10px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: 1s;
+  border-radius: 20px;
+  box-shadow: 0 0 0.2em 0 var(--color-background);
+}
+
+.btn-content:hover, .btn-content:focus {
+  transition: 0.5s;
+  -webkit-animation: btn-content 1s;
+  animation: btn-content 1s;
+  outline: 0.1em solid transparent;
+  outline-offset: 0.2em;
+  box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+
+.btn-content .icon-arrow {
+  transition: 0.5s;
+  margin-right: 0px;
+  transform: scale(0.6);
+}
+
+.btn-content:hover .icon-arrow {
+  transition: 0.5s;
+  margin-right: 10px;
+}
+
+.icon-arrow {
+  width: 20px;
+  margin-left: 15px;
+  position: relative;
+  top: 6%;
+}
+  
+/* SVG */
+#arrow-icon-one {
+  transition: 0.4s;
+  transform: translateX(-30%);
+}
+
+#arrow-icon-two {
+  transition: 0.5s;
+  transform: translateX(-15%);
+}
+
+.btn-content:hover #arrow-icon-three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content:hover #arrow-icon-one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content:hover #arrow-icon-two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: var(--color-background);
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
+/* Button animations */
+@-webkit-keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+@keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+
+/* From Uiverse.io by jackson_2777 */ 
+.apply-btn {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.2rem;
+  padding-inline: 1rem;
+  background-color: #C5113E;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.apply-btn:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.apply-btn:hover .icon {
+  transform: translate(4px);
+}
+
+.apply-btn:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.apply-btn::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  /* background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  ); */
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+
+.filter {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.192);
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.021);
+  transition: all 0.3s;
+}
+
+.filter svg {
+  height: 16px;
+  fill: rgb(253, 253, 253);
+  transition: all 0.3s;
+}
+.filter:hover {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.11);
+  background-color: rgb(255, 255, 255);
+}
+.filter:hover svg {
+  fill: #C5113E;
+}
+
+
+.course-head-part {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Metropolis-Medium", sans-serif;
+}
+
+.course-head {
+  color: #dd0e3a;
+}
+
+.course-filter-btn {
+  background-color: #ffffff;
+  color: #dd0e3a;
+  border-radius: 10px;
+  border: 2px solid #dd0e3a;
+  padding: 5px 30px;
+}
+
+.course-item {
+  background-color: rgb(221, 14, 58,0.2);
+  width: 100%;
+  border-right: 5px solid #dd0e3a;
+  font-weight: 600;
+  
+}
+
+.course-link{
+    width: 200px;
+    text-decoration: none!important;
+    cursor: pointer;
+    border:none!important;
+    background-color: rgb(255, 255, 255,0.01)!important;
+}
+
+.course-canvas {
+  width: 800px !important;
+}
+
+.subject-canvas{
+    width: 800px !important;
+}
+
+#courseTabs {
+  border-color: none;
+  border-bottom: none;
+}
+
+#courseTabs a{
+    text-decoration: none!important;
+    color: #000000;
+}
+
+.filter-select{
+    width: 300px;
+    margin-right: 10px;
+}
+
+.filter-left{
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0px;
+}
+
+.course_subject{
+    cursor: pointer;
+}
+
+.course-branch{
+  font-family: "Metropolis-Medium", sans-serif;
+margin-bottom: 10px;
+font-size: 17px;
+}
+
+.subject_link{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Metropolis-Medium", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.subject_head{
+    font-family: "Metropolis-Medium", sans-serif;
+    font-size: 17px;
+    color: #dd0e3a;
+}
+
+.subject_check{
+    cursor: pointer;
+    border-color: #dd0e3a;
+}
+.subject_box{
+    padding-left: 20px;
+}
+.subject_link:hover{
+    color: #dd0e3a;
+}
+.filter-footer{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.filter-btn{
+    all: unset;
+    border: 2px solid #dd0e3a;
+    color: #dd0e3a;
+    font-family: "Metropolis-Medium", sans-serif;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.filter-btn:hover{
+    background-color: #dd0e3a;
+    color: white;
+}
+
+.course-card{
+    height: max-content;
+    padding: 10px 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.course-title{
+    color: #000000;
+    font-family: "Metropolis-Bold", sans-serif;
+}
+
+.course-title-details{
+    height: 80px;
+}
+.course-details-list {
+    padding: 0px;
+}
+.course-details-list li{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.course-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.course-detail-btn{
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #dd0e3a;
+    background-color: #ffffff;
+    font-family: "Metropolis-Medium", sans-serif;
+    border: 1px solid #dd0e3a;
+}
+
+.course-detail-btn:hover{
+    background-color: #dd0e3a;
+    color: white;
+}
+
+.course-list-card{
+    padding: 40px 0px;
+    box-shadow: rgba(50, 50, 93, 0.05) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.13) 0px 18px 36px -18px inset;
+}
+
+.course-first-head{
+    width: 75%;
+    margin-top: 20px;
+}
+
+.subject-detail-head{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subject-detail-head .std-img{
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20% 10% 30% 10%;
+}
+
+.subject-detail-head h1{
+    font-size: 30px;
+    color: #dd0e3a;
+    font-weight: 800;
+    font-family: "Metropolis-Bold", sans-serif;
+}
+
+.subject-detail-head h5{
+    font-size: 20px;
+    font-family: "Metropolis-Bold", sans-serif;
+}
+
+.eligibility-details{
+    margin: 40px 0px;
+    padding: 20px 0px;
+    font-family: "Metropolis-Medium", sans-serif;
+}
+
+.subject-course-details{
+    margin: 40px 0px;
+}
+
+.subject-content{
+    font-family: "Metropolis-Medium", sans-serif;
+}
+
+.subject-enquiry-card{
+    font-family: "Metropolis-Medium", sans-serif;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    background-color: #EAEEF2;
+    border-radius: 10px;
+}
+
+.meet-btn{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #dd0e3a;
+    color: white;
+    border: 1px solid white;
+}
+
+.university-link:hover{
+    text-decoration: underline;
+    color: #dd0e3a;
+    cursor: pointer;
+}

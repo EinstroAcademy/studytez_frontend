@@ -1,0 +1,264 @@
+{
+    "part1": {
+      "title": "Study in France",
+      "subtitle": "The Best Study Abroad Consultancy for France",
+      "services": [
+        "Get free counselling",
+        "University and Course Selection",
+        "Application",
+        "Visa Process"
+      ],
+      "cta": {
+        "text": "Enroll Now",
+        "url": "#"
+      },
+      "images": {
+        "description": "Kangaroo on beach",
+        "url": "/studyImages/france/france-main.jpg"
+      },
+      "designElements": [
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        },
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        },
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        }
+      ]
+    },
+    "part2": {
+      "imagePlace": "left",
+      "title": "Why Study in France for Indian Students?",
+      "introduction": "For Indian students looking for a life-changing educational experience, studying in France is the best option since it provides the optimum balance of academic success, cultural immersion, and job chances. With its excellent educational system, cosmopolitan atmosphere, rich cultural heritage, professional prospects, and reasonably priced cost of living, France can be a great choice for Indian students wishing to study overseas.",
+      "benefits": [
+        {
+          "text": "English-Taught Programs"
+        },
+        {
+          "text": "B-Schools in France holds Triple Accreditation - AACSB, AMBA and EFMD"
+        },
+        {
+          "text": "The world's best universities and colleges are located in France"
+        },
+        {
+          "text": "Living expenses in France are quite inexpensive"
+        },
+        {
+          "text": "For Indian alumni, France is granting a 5-year Schengen visa"
+        }
+      ],
+      "images": {
+        "description": "Kangaroo on beach",
+        "url": "/studyImages/france/france-sub.png"
+      }
+    },
+    "universities": [
+      {
+        "name": "Université Grenoble Alpes",
+        "image": "/studyImages/france/france-uni-alpes.jpg"
+      },
+      {
+        "name": "ESIGELEC",
+        "image": "/studyImages/france/france2-uni.jpg"
+      },
+      {
+        "name": "University of Toulouse",
+        "image": "/studyImages/france/toulouse.jpg"
+      },
+      {
+        "name": "University of Bordeaux",
+        "image": "/studyImages/france/bordeaux.jpg"
+      },
+      {
+        "name": "Aix-Marseille University",
+        "image": "/studyImages/france/aix-marseille.jpg"
+      },
+      {
+        "name": "Montpellier Business School",
+        "image": "/studyImages/france/montpellier.jpg"
+      },
+      {
+        "name": "Nantes University",
+        "image": "/studyImages/france/nantes-university.jpg"
+      },
+      {
+        "name": "ENS Lyon",
+        "image": "/studyImages/france/lyon.jpg"
+      }
+    ],
+    "courses": {
+      
+    },
+    "sub_nav":true,
+  "reqImage":"/studyImages/france/france_req.png",
+  "admission_requirements": {
+    "course": [
+      {
+        "name": "Diploma",
+        "details": "A minimum level of educational qualification is required, usually equivalent to the completion of secondary education or its international equivalent. A minimum IELTS score of 6.0 and above, TOEFL - 72 to 100, and CAE - 180 to 230 is required."
+      },
+      {
+        "name": "Bachelor's",
+        "details": "Typically, you will need to have completed secondary education or its international equivalent, such as A-levels, an IB Diploma, or equivalent qualifications from your country. A minimum IELTS score of 6.0 to 7.5, TOEFL - 72 to 100, and CAE - 180 to 230 is required."
+      },
+      {
+        "name": "Master's",
+        "details": "You will need a Bachelor's degree or its international equivalent from a recognized institution. The required grade or classification may vary depending on the university and program. A minimum IELTS score of 6.5 to 7.5, TOEFL - 90 to 100, and CAE - 180 to 230 is required."
+      },
+      {
+        "name": "Doctorate",
+        "details": "You must hold a Master's degree or an equivalent qualification, such as an MPhil (Master of Philosophy), from a recognized institution. Some universities may accept exceptional candidates with a Bachelor's degree, provided they have relevant research experience or achievements. You are usually required to submit a research proposal outlining the topic, objectives, methodology, and potential outcomes of your proposed research project. This proposal demonstrates your ability to conduct independent research and contribute to the field. A minimum score of 6.5 to 7.0 in IELTS, TOEFL - 90 to 100, and PTE - 58 to 65 is required. Some universities may conduct interviews as part of the admissions process to assess your suitability for the program and your ability to carry out independent research."
+      }
+    ],
+    "exams_required": {
+      "description": "To study at France universities, international students typically need to meet certain academic requirements and demonstrate their English language proficiency. Here are the main exams and qualifications commonly required:",
+      "title": "English Language Proficiency Exams:",
+      "list": [
+        "International English Language Testing System (IELTS)",
+        "Test of English as a Foreign Language (TOEFL)",
+        "Pearson Test of English (PTE)"
+      ]
+    }
+  },
+  "intake": [
+    {
+      "name": "January Intake",
+      "description":"In France, there are two main academic intakes: the spring intake in January and the fall intake in September. Let's examine the intakes in France in greater detail. ",
+      "details": [
+        "Every year, the January intake begins at the beginning and provides nearly identical instances to those of the September intake. All applicants must begin the process of shortlisting universities between January and July of the previous year to be considered for this intake",
+        "This will give you enough time to be ready for any exams, such as the IELTS, GMAT or GRE, that are necessary for your selected course or the competency test. ",
+        "Generally, by the chosen University standards, applications must be submitted between August and September. After that, you have until October to react to an interview invitation or an acceptance letter. Mid-November is the deadline for January intakes; September intakes are open until",
+        "Since there is a large number of courses available at practically all universities during this time, many international applicants think that it acts as the main intake."
+      ]
+    },
+    {
+      "name": "September Intake ",
+      "details": [
+        "Since there is a large number of courses available at practically all universities during this time, many international applicants think that it acts as the main intake. ",
+        "To be considered for this intake, all applicants must start shortlisting universities by March. You may be required to submit the results of various entry or language proficiency exams, such as the SAT, GMAT, GRE, IELTS, or TOEFL, depending on the course and university requirements. You must thus quickly show up for these exams in April."
+      ]
+    }
+  ],
+  "cost": {
+    "description": "France offers a diverse range of educational programs with varying tuition fees, depending on the type of institution (public or private), the level of study, and the specific program. While public universities in France offer relatively low tuition fees, private institutions tend to be more expensive. The cost of studying in France is generally lower compared to countries like the USA and the UK, making it an attractive option for international students.<p> International students can expect tuition fees between €3,000 and €20,000 annually. The average living expenses might range from €700 to €1,500 per month, including accommodation, food, rent, and other costs.</p>",
+    "table_headings":[
+        "Degree",
+        "Cost in Euro(Per Year)",
+        "Cost in INR(Per Year)"
+    ],
+    "cost_per_year": [
+      {
+        "degree": "Undergraduate (Bachelor's)",
+        "costInGBP": "€3,000 - €10,000",
+        "costInINR": "₹2,60,000 - ₹8,70,000"
+      },
+      {
+        "degree": "Postgraduate (Master's)",
+        "costInGBP": "€4,000 - €15,000",
+        "costInINR": "₹3,50,000 - ₹13,00,000"
+      },
+      {
+        "degree": "MBA",
+        "costInGBP": "€10,000 - €40,000",
+        "costInINR": "₹8,70,000 - ₹34,80,000"
+      },
+      {
+        "degree": "PhD",
+        "costInGBP": "€3,000 - €10,000",
+        "costInINR": "₹2,60,000 - ₹8,70,000"
+      }
+    ]
+  },
+  "visa_requirements": {
+    "description": "<h6>France Student Visa Requirements:</h6><p>To study at universities in France, international students typically need to meet certain academic requirements, demonstrate their English language proficiency, and fulfill various other conditions. Here are the main requirements:</p><p><strong>Offer from Recognized Universities:</strong></p><ul><li>Unconditional Offer: You must have an unconditional offer of a place on a course with approved universities.</li><li>Confirmation of Enrollment (Attestation to Prescription): The institution will provide you with a confirmation of enrollment.</li></ul><p><strong>Proof of English or French Language Proficiency:</strong></p><ul><li>Approved Language Test: You need to prove your knowledge of the English or French language by passing an approved language test or by having a qualification that was taught in English or French and is equivalent to a French degree.</li><ul><li>English Tests: Common tests include IELTS, TOEFL, and others accepted by French institutions.</li><li>French Tests: Common tests include DELF, DALF, and TCF.</li></ul></ul><p><strong>Financial Requirements:</strong></p><ul><li>Proof of Funds: You must show that you have enough money to support yourself and pay for your course. The amount varies depending on your situation.</li><ul><li>Amount Required: Generally, you need to show that you have at least €615 per month to cover living expenses.</li><li>Evidence: Proof can be in the form of bank statements, a letter from your bank, or financial sponsorship evidence.</li></ul></ul><p><strong>Academic Qualifications:</strong></p><ul><li>Transcripts and Certificates: You need to provide your academic qualifications (transcripts, certificates) as required by your institution.</li></ul><p><strong>Passport and Photographs:</strong></p><ul><li>Valid Passport: A valid passport or travel document.</li><li>Passport-sized Photographs: Photographs that meet French visa requirements.</li></ul><p><strong>Medical Insurance:</strong></p><ul><li>Health Insurance: Proof of health insurance coverage, either through the French Social Security system or a private health insurance plan.</li></ul><p><strong>Proof of Accommodation:</strong></p><ul><li>Accommodation Details: Proof of accommodation in France, such as a rental agreement or a letter from a host.</li></ul><p><strong>Visa Application Form:</strong></p><ul><li>Long-stay Visa Application (D Visa): Complete the long-stay visa application form and gather the required documents for submission.</li></ul><p><strong>Visa Interview:</strong></p><ul><li>Appointment: Schedule and attend a visa interview at a French embassy or consulate in your country.</li><li>Documents for Interview: Bring all required documents, including proof of enrollment, passport, photographs, proof of financial resources, academic transcripts, and the visa application form.</li></ul>",
+    "list": []
+  },
+  "scholarship": {
+    "content": "",
+    "scholarship_table":[
+      "Name of the Scholarship",
+      "Amount (Per Year)"
+    ],
+    "scholarship_details": [
+      {
+        "name":"Walter Jensen Scholarship",
+        "amount":"€2,000 - €4000"
+      },
+      {
+        "name":"ISA Diversity Scholarship for American ",
+        "amount":"€1,000 - €2,000"
+      },
+      {
+        "name":"Campus France Scholarship",
+        "amount":"€1,000 - €4,500"
+      },
+      {
+        "name":"Fulbright Scholarship",
+        "amount":"€1000 - €2500"
+      },
+      {
+        "name":"Eiffel Scholarship Programme of Excellence",
+        "amount":"€1000 - €2316"
+      },
+      {
+        "name":"Erasmus+ Mobility Scholarship",
+        "amount":"€4000 - €6210"
+      },
+      {
+        "name":"The Chateaubriand Fellowship",
+        "amount":"€1,230 - €2,000"
+      },
+      {
+        "name":"Alexandre Yersin Scholarships",
+        "amount":"€8,000 - €10,808"
+      }
+
+    ]
+    
+  },
+  "post_study":{
+    "description": "<div class=\"container\"><p>International students in France on a valid student visa are allowed to stay in the country after finishing their education if they meet certain conditions. Graduates can apply for a temporary residence permit called the \"Autorisation Provisoire de Séjour\" (APS) or a \"Talent Passport\" to gain work experience and seek employment. Here are the details:</p><p><strong>Post-Study Work Opportunities:</strong></p><ul><li><strong>Autorisation Provisoire de Séjour (APS):</strong> A temporary residence permit valid for 12 months, allowing graduates to look for work or create a company related to their field of study.<ul><li>Eligibility: Graduates with a master’s degree or equivalent are eligible to apply.</li></ul></li><li><strong>Talent Passport:</strong> A residence permit for highly skilled workers, researchers, or those with an innovative business project.<ul><li>Eligibility: Graduates with a job offer related to their field of study that meets the salary threshold.</li></ul></li></ul></div>",
+    "jobs": [
+      {
+        "jobTitle": "Software Engineer",
+        "averageAnnualSalaryGBP": "€35,000 - €60,000"
+      },
+      {
+        "jobTitle": "Business Analyst",
+        "averageAnnualSalaryGBP": "€40,000 - €65,000"
+      },
+      {
+        "jobTitle": "Financial Analyst",
+        "averageAnnualSalaryGBP": "€35,000 - €55,000"
+      },
+      {
+        "jobTitle": "Marketing Executive",
+        "averageAnnualSalaryGBP": "€30,000 - €50,000"
+      },
+      {
+        "jobTitle": "Nurse",
+        "averageAnnualSalaryGBP": "€25,000 - €40,000"
+      },
+      {
+        "jobTitle": "Graphic Designer",
+        "averageAnnualSalaryGBP": "€25,000 - €45,000"
+      },
+      {
+        "jobTitle": "Data Analyst",
+        "averageAnnualSalaryGBP": "€35,000 - €60,000"
+      },
+      {
+        "jobTitle": "Research Scientist",
+        "averageAnnualSalaryGBP": "€35,000 - €70,000"
+      }
+    ]
+    
+    
+  }
+  }
+  

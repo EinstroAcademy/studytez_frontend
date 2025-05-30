@@ -1,11 +1,60 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './login.css'
 import loginImg from '../../Images/home/login.png'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import request from "../../api/api";
+import { useDispatch, useSelector } from "react-redux";
+import { oAuthToken, setToken } from "../../redux/features/loginSlice";
+import toast from "react-hot-toast";
+import { fetchUser } from "../../redux/features/profileSlice";
+
 
 function Login() {
+  const navigate = useNavigate()
+  const [login,setLogin]= useState({
+    email:'',
+    password:''
+  })
+
+  const dispatch = useDispatch();
+
+  const handleLogin =()=>{
+    const {email,password} = login
+    request({
+      url:'/user/login',
+      method:'POST',
+      data:{email,password}
+    }).then((res)=>{
+      if(res.status===1){
+          dispatch(setToken(res))
+          localStorage.setItem('app-token',res.token)
+          navigate('/')
+      }
+      if(res.status===0){
+        toast.error(res.message)
+      }
+    })
+  }
+
+  function loginWithGoogle() {
+    const oauthUrl = "http://localhost:4000/auth/google";
+    const popup = window.open(oauthUrl, "_blank", "width=500,height=600");
+
+    window.addEventListener("message", function (event) {
+      if (event.origin !== "http://localhost:5173") return;
   
+      const { token } = event.data;
+      if (token) {
+        dispatch(oAuthToken(token)); // Save in Redux
+        localStorage.setItem('app-token',token)
+        popup.close(); // ✅ Close popup
+        navigate('/')
+      }
+    });
+  }
+
+
+  // Listen for message from popup after OAuth success
   return (
     <div className="container-fluid ">
       {/* <div>
@@ -23,11 +72,10 @@ function Login() {
         </div>
         <div className="col-6">
          <div className="right-form-box">
-         <form class="form">
             <div class="flex-column">
               <label>Email </label>
             </div>
-            <div class="inputForm">
+            <div class="inputForm mb-3">
               <svg
                 height={"20"}
                 viewBox={"0 0 32 32"}
@@ -38,13 +86,13 @@ function Login() {
                   <path d="m30.853 13.87a15 15 0 0 0 -29.729 4.082 15.1 15.1 0 0 0 12.876 12.918 15.6 15.6 0 0 0 2.016.13 14.85 14.85 0 0 0 7.715-2.145 1 1 0 1 0 -1.031-1.711 13.007 13.007 0 1 1 5.458-6.529 2.149 2.149 0 0 1 -4.158-.759v-10.856a1 1 0 0 0 -2 0v1.726a8 8 0 1 0 .2 10.325 4.135 4.135 0 0 0 7.83.274 15.2 15.2 0 0 0 .823-7.455zm-14.853 8.13a6 6 0 1 1 6-6 6.006 6.006 0 0 1 -6 6z"></path>
                 </g>
               </svg>
-              <input type="text" class="input" placeholder="Enter your Email" />
+              <input type="text" class="input" placeholder="Enter your Email" onChange={(e)=>setLogin({...login,email:e.target.value})}/>
             </div>
 
             <div class="flex-column">
               <label>Password </label>
             </div>
-            <div class="inputForm">
+            <div class="inputForm mb-3">
               <svg
                 height={"20"}
                 viewBox={"-64 0 512 512"}
@@ -58,6 +106,7 @@ function Login() {
                 type="password"
                 class="input"
                 placeholder="Enter your Password"
+                onChange={(e)=>setLogin({...login,password:e.target.value})}
               />
               <svg
                 viewBox="0 0 576 512"
@@ -75,14 +124,14 @@ function Login() {
               </div>
               <span class="span">Forgot password?</span>
             </div>
-            <button class="button-submit">Sign In</button>
+            <button class="button-submit"onClick={()=>handleLogin()}>Sign In</button>
             <p class="p">
               Don't have an account? <Link to={'/signup'}><span class="span">Sign Up</span></Link>
             </p>
             <p class="p line">Or With</p>
 
             <div class="flex-row">
-              <a class="btn google" href="http://localhost:4000/auth/google">
+              <button class="btn apple" onClick={()=>loginWithGoogle()}>
                 <svg
                   version="1.1"
                   width="20"
@@ -121,7 +170,7 @@ function Login() {
                   ></path>
                 </svg>
                 Google
-              </a>
+              </button>
               <button class="btn apple">
                 <svg
                   version="1.1"
@@ -149,7 +198,6 @@ function Login() {
                 Apple
               </button>
             </div>
-          </form>
          </div>
         </div>
       </div>

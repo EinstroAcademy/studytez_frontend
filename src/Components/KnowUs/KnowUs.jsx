@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import knowus from '../../Images/home/knowus.png'
 import './know.css'
+import { useNavigate } from 'react-router-dom';
+import EnquiryForm from '../floatingMenu/EnquiryForm';
 
 function KnowUs() {
+ 
+  const navigate = useNavigate()
   return (
     <div className="container know-container">
       <div className="row align-items-center">
@@ -25,7 +29,7 @@ function KnowUs() {
                 <span class="circle" aria-hidden="true">
                   <span class="icon arrow"></span>
                 </span>
-                <span class="button-text">Know More</span>
+                <span class="button-text" onClick={()=>navigate('/about')}>Know More</span>
               </button>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const NodeURL = 'http://localhost:4000';
-// export const NodeURL = 'http://einstro-001-site5.htempurl.com/';
+// export const NodeURL = 'https://einstro-backend-t1zr.onrender.com';
 // export const NodeURL = 'https://api.einstrostudyabroad.com';
 
 
@@ -12,7 +12,7 @@ export const client = axios.create({
 client.defaults.responseType = 'json';
 
 client.interceptors.request.use(function (config) {
-  const authToken = localStorage.getItem('ESA-admin');
+  const authToken = localStorage.getItem('app-token');
 
   if (authToken) {
     config.headers['Authorization'] = authToken;
@@ -27,10 +27,11 @@ const request = (options) => {
 			- When Server returns "00" -> which means the session has expired  
 			- Pushes the URL to Login Page -> "/login"
 		*/
+
+    console.log(response)
     if (response?.data?.status === '00') {
-      localStorage.removeItem('ESA-admin');
-      localStorage.removeItem('adminData');
-      window.location = '/admin';
+      localStorage.removeItem('app-token');
+      window.location = '/';
     }
     return response.data; // This in turn returns the data from the server when status is 1
   };

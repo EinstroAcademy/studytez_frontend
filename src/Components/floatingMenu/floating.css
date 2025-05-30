@@ -1,0 +1,134 @@
+.floating-menu {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .floating-menu .fl-item {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 10px 5px;
+    width: 40px;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    transition: width 0.3s ease, height 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .fl-contact{
+    background-color: #dd0e3a;
+  }
+  
+  .fl-email{
+    background-color: #dd0e3a;
+  }
+  
+  .fl-link{
+    background-color: #dd0e3a;
+  }
+  .fl-wa{
+    background-color: #dd0e3a;
+  }
+  
+  .fl-item:hover {
+    width: 40px;
+    height: 160px;
+    background-color: #8f1409;
+    overflow: visible;
+  }
+  
+  .fl-item .icon {
+    width: 24px;
+    height: 24px;
+    margin: 10px 20px;
+    transition: 0.3s ease-in-out;
+    
+  }
+  
+  .fl-item img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .fl-item .text {
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin: 30px 20px;
+    transform: rotate(-90deg);
+    font-family: "Metropolis-SemiBold", sans-serif;
+  }
+  
+  .fl-item:hover .text {
+    opacity: 1;
+  }
+  
+  .fl-item:hover .icon{
+    transition: 0.3s ease-in-out;
+    transform: rotate(270deg);
+  }
+
+  
+  
+  .edge{
+    border-radius: 0px 0px 8px 0px;
+  }
+  
+  .edge-t{
+    border-radius: 0px 8px 0px 0px;
+  }
+
+ 
+
+  .modal-content{
+    border: 1px solid #dd0e3a;
+    box-shadow: 2px 2px 5px #dd0e3a;
+  }
+
+
+  .modal-header{
+    font-family: "Metropolis-SemiBold", sans-serif;
+    color: #dd0e3a;
+    border-bottom: 1px solid rgb(255, 0, 0,0.5);
+  }
+
+  .fm-lb{
+    font-family: "Metropolis-SemiBold", sans-serif;
+    color: #dd0e3a;
+  }
+
+  .submit-btn{
+    font-family: "Metropolis-SemiBold", sans-serif;
+    padding: 7px 30px;
+  margin: 0 40px;
+  border: 2px solid #dd0e3a;
+  border-radius: 10px;
+  color: #dd0e3a;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #dd0e3a;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+  }
+
+  .css-w8qx7w-control:hover{
+    border-color: #dd0e3a!important; /* Change border color on focus */
+  box-shadow: 0 0 5px #dd0e3a; 
+  }
+
+  @media screen and (max-width: 480px) {
+    .floating-menu{
+      display: none;
+    }
+  }
+  
+  
+  

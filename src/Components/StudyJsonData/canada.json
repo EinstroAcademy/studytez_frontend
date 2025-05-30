@@ -1,0 +1,265 @@
+{
+    "part1": {
+      "title": "Study in Canada",
+      "subtitle": "The Best Study Abroad Consultancy for Canada",
+      "services": [
+        "Get free counselling",
+        "University and Course Selection",
+        "Application",
+        "Visa Process"
+      ],
+      "cta": {
+        "text": "Enroll Now",
+        "url": "#"
+      },
+      "images": {
+        "description": "Kangaroo on beach",
+        "url": "/studyImages/canada/canada-main.png"
+      },
+      "designElements": [
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        },
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        },
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        }
+      ]
+    },
+    "part2": {
+      "imagePlace": "right",
+      "title": "Why Study in the Canada for Indian Students?",
+      "introduction": "Canada offers a direct path to permanent citizenship. This has made it a popular hub for studying abroad, especially for Indian students. Further, Canada is cost-effective alternative to the U.S. In terms of economy and technology, Canada closely resembles her neighbour, the United States of America. However, Canadians embrace their British heritage, and its environment has a great influence from Britain and France. This dual nature of Canada is enjoyed most by students opting to study abroad in Canada.",
+      "benefits": [
+        {
+          "text": "Practical Teaching Pedagogy"
+        },
+        {
+          "text": "Financial Aid and Scholarships for Qualified Students"
+        },
+        {
+          "text": "Student Direct Stream Visa for Indian students"
+        },
+        {
+          "text": "Flexibility to Work Part Time-Both On-and-Off Campus"
+        },
+        {
+          "text": "Technologically Driven Country"
+        }
+      ],
+      "images": {
+        "description": "Kangaroo on beach",
+        "url": "/studyImages/canada/canada-sub.png"
+      }
+    },
+    "universities": [
+      {
+        "name": "MacEwan University, Edmonton, Alberta",
+        "image": "/studyImages/canada/macEwan-university.jpg"
+      },
+      {
+        "name": "Trinity Western University, British Columbia",
+        "image": "/studyImages/canada/Trinity-Western-university.jpg"
+      },
+      {
+        "name": "Mount Royal University, Calgary",
+        "image": "/studyImages/canada/Mount-Royal-University.png"
+      },
+      {
+        "name": "University of Waterloo, Ontario",
+        "image": "/studyImages/canada/University-of-Waterloo.jpg"
+      },
+      {
+        "name": "Laurentian University, Ontario",
+        "image": "/studyImages/canada/Laurentian-University.png"
+      },
+      {
+        "name": "Conestoga College, Ontario",
+        "image": "/studyImages/canada/Conestoga-College.jpg"
+      },
+      {
+        "name": "University of New Brunswick",
+        "image": "/studyImages/canada/University-Brunswick.jpg"
+      },
+      {
+        "name": "Fairleigh Dickinson University, Vancouver, British Columbia",
+        "image": "/studyImages/canada/Fairleigh-Dickinson-University.png"
+      }
+      
+    ],
+    "courses":{
+        "title": "Popular Courses to Study in Canada for Indian Students",
+        "categories": [
+          {
+            "category": "Top 10 Master's Degree Courses to Study in Canada",
+            "courses": [
+              "Master's Degree in Mechanical Engineering",
+              "Master's Degree in Electrical Engineering",
+              "Master's Degree in Computer Science",
+              "Master's Degree in Construction",
+              "Master's Degree in Public Health",
+              "Master's Degree in Finance",
+              "Master's Degree in Human Resource",
+              "Master's Degree in Psychology",
+              "Master's Degree in Pharmacy",
+              "Master's Degree in Data Analytics"
+            ]
+          },
+          {
+            "category": "Top 10 PG Diploma Courses to Study in Canada",
+            "courses": [
+              "PG Diploma in International Business",
+              "PG Diploma in Project Management",
+              "PG Diploma in Financial Planning",
+              "PG Diploma in Information Technology",
+              "PG Diploma in Accounting",
+              "PG Diploma in Financial Planning",
+              "PG Diploma in Supply Chain Management",
+              "PG Diploma in Artificial Intelligence",
+              "PG Diploma in Health Administration",
+              "PG Diploma in Applied Microbiology"
+            ]
+          },
+          {
+            "category": "Top 10 Bachelor Degree Courses to Study in Canada",
+            "courses": [
+              "Bachelor of Business Administration",
+              "Bachelor's Degree in Computer Science",
+              "Bachelor of Science in Biotechnology",
+              "Bachelor's Degree in Engineering",
+              "Bachelor of Hospitality and Tourism Management",
+              "Bachelor of Commerce",
+              "Bachelor of Arts in Political Science",
+              "Bachelor of Arts in Psychology",
+              "Bachelor of Science in Nursing",
+              "Bachelor of Arts"
+            ]
+          }
+        ]
+      },
+      "sub_nav":true,
+      "reqImage":"/studyImages/canada/canada_req.png",
+      "admission_requirements": {
+        "course": [
+          {
+            "name": "Academic Qualifications",
+            "details": "<p>To study in Canada as an international student, certain immigration policies must be met. International students require a <strong>study permit</strong> to travel to Canada and commence their educational journey.</p><p>The study permit, although not a visa, is necessary for studying at Canada’s Designated Learning Institutions (DLIs). Alongside the study permit, students need a <strong>visitor visa</strong> or an <strong>electronic travel authorization (eTA)</strong> to enter the country legally. Once the study permit is approved, the Immigration officers of Canada will issue the visitor visa or an eTA.</p><p>This falls under the general study visa category, which may take <strong>4 to 8 weeks</strong> to process. However, students who require expedited entry into Canada can opt for the <strong>Student Direct Stream study visa (SDS)</strong> process, which takes only <strong>20 days</strong> to process.</p>"
+          }
+        ],
+        "exams_required": {}
+      },
+      "intake": [
+        {
+          "name": "Fall Intake (September):",
+          "details": [
+            "The fall intake is the primary intake period for most programs at Canadian universities.",
+            "It aligns with the beginning of the academic year, which usually starts in September.",
+            "The fall intake typically offers the widest selection of programs and courses."
+          ]
+        },
+        {
+          "name": "Winter Intake (January):",
+          "details": [
+            "Some universities offer a secondary intake starting in January, known as the winter intake.",
+            "The winter intake allows students who miss the fall intake deadlines or who wish to start their studies in the winter semester to enrol in certain programs.",
+            "The availability of programs for the winter intake may be more limited compared to the fall intake."
+          ]
+        },
+        {
+          "name": "Spring/Summer Intake (May/June):",
+          "details": [
+            "Fewer universities offer a spring or summer intake, which usually starts in May or June.",
+            "The spring/summer intake may include shorter sessions or specialized programs, such as language courses or specific professional certifications.",
+            "Programs available for the spring/summer intake are often limited and may vary depending on the institution"
+          ]
+        }
+      ],
+      "cost": {
+        "description": "Canada is known for its affordability compared to other countries abroad. Additionally, the country offers a wide range of generous options for international students to finance their education. From scholarships and student loans to bursaries and assistantships, students have multiple funding opportunities to explore.Let us see the average cost to study each degree in Canada.",
+        "table_headings":[
+          "Course Level",
+          "Average Cost in CAD/ Per Year"
+      ],
+        "cost_per_year": [
+          {
+            "degree": "Foundational Courses",
+            "costInGBP": "$20,000"
+          },
+          {
+            "degree": "Undergraduate Courses",
+            "costInGBP": "$33,623 "
+          },
+          {
+            "degree": "Postgraduate Courses",
+            "costInGBP": "$15,120 to $22,000 "
+          },
+          {
+            "degree": "Doctorate Courses",
+            "costInGBP": "$8000 to $20,000"
+          },
+          {
+            "degree": "MBA Courses",
+            "costInGBP": "$25,000 to $40,000"
+          }
+        ]
+      },
+      "visa_requirements": {
+        "description": "<h6>Canada Student Visa (Study Permit) Requirements</h6><ol><li><h6>Acceptance Letter</h6><ul><li><strong>Acceptance Letter:</strong> Obtain an acceptance letter from a Designated Learning Institution (DLI) in Canada. This letter is crucial for your study permit application.</li></ul></li><li><h6>Proof of Identity</h6><ul><li><strong>Passport:</strong> A valid passport or travel document. Ensure your passport is valid for the duration of your stay in Canada.</li><li><strong>Photographs:</strong> Two recent passport-sized photos that meet Canadian visa requirements. Write your name and date of birth on the back of each photo.</li></ul></li><li><h6>Proof of Financial Support</h6><ul><li><strong>Proof of Funds:</strong> Demonstrate that you have enough money to support yourself and any family members who come with you to Canada. This includes tuition fees, living expenses, and return transportation. Examples of proof include:<ul><li>Bank statements for the past four months.</li><li>Proof of a Canadian bank account in your name if you have transferred money to Canada.</li><li>Proof of payment of tuition and accommodation fees.</li><li>A letter from the person or institution providing you with money.</li><li>Proof of funding paid from within Canada if you have a scholarship or are in a Canadian-funded educational program.</li></ul></li></ul></li><li><h6>Letter of Explanation</h6><ul><li><strong>Letter of Explanation:</strong> Write a letter explaining why you want to study in Canada and that you understand your responsibilities as a student. This helps the visa officer understand your goals and intentions.</li></ul></li><li><h6>Immigration Medical Examination (IME)</h6><ul><li><strong>Medical Exam:</strong> You may need to undergo a medical exam depending on your country of residence or if you plan to work in certain fields like health services, child care, or primary or secondary education.</li></ul></li><li><h6>Biometrics</h6><ul><li><strong>Biometrics Appointment:</strong> Provide your fingerprints and a photograph. You will need to schedule an appointment at a Visa Application Centre (VAC) to provide your biometrics.</li></ul></li><li><h6>Application Form</h6><ul><li><strong>Study Permit Application:</strong> Complete the online study permit application form (IMM 1294). Ensure all information is accurate and complete.</li></ul></li><li><h6>Visa Application Fee</h6><ul><li><strong>Application Fee:</strong> Pay the study permit application fee, which is CAD 150. If biometrics are required, there is an additional fee of CAD 85.</li></ul></li><li><h6>Supporting Documents</h6><p>Prepare the following supporting documents:</p><ul><li><strong>Acceptance Letter:</strong> From your DLI.</li><li><strong>Proof of Identity:</strong> Passport and photographs.</li><li><strong>PAL:</strong> Provincial Attestation Letter (PAL).</li><li><strong>GIC:</strong> A minimum GIC of CAD 20,635.</li><li><strong>Proof of Funds:</strong> Financial documents.</li><li><strong>Letter of Explanation:</strong> Your statement.</li><li><strong>Medical Exam Results:</strong> If required.</li><li><strong>Biometrics Confirmation:</strong> If biometrics were provided.</li><li><strong>Academic Documents:</strong> Transcripts, diplomas, degrees, or certificates from previous institutions.</li><li><strong>CAQ (for Quebec):</strong> If you plan to study in Quebec, you will need a Certificat d'acceptation du Québec (CAQ).</li></ul></li><li><h6>Submit the Application</h6><ul><li><strong>Online Submission:</strong> Submit your application online through the Immigration, Refugees and Citizenship Canada (IRCC) website.</li><li><strong>Paper Submission:</strong> If you are unable to apply online, you can submit a paper application at the nearest Visa Application Centre (VAC).</li></ul></li><li><h6>Attend the Visa Interview (if required)</h6><ul><li><strong>Interview:</strong> In some cases, you may be required to attend an interview with a visa officer.</li></ul></li><li><h6>After the Application</h6><ul><li><strong>Processing Time:</strong> Wait for the processing of your application. Processing times can vary, so apply well in advance of your course start date.</li><li><strong>Decision Notification:</strong> You will receive a decision on your application. If approved, you will receive a Port of Entry (POE) Letter of Introduction and, if applicable, a temporary resident visa (TRV) or an Electronic Travel Authorization (eTA).</li></ul></li><li><h6>Prepare for Departure</h6><ul><li><strong>Travel Arrangements:</strong> Make travel arrangements to Canada.</li><li><strong>Documents for Travel:</strong> Keep your POE Letter of Introduction, passport, acceptance letter, proof of funds, and any other important documents in your carry-on luggage.</li></ul></li><li><h6>Arrival in Canada</h6><ul><li><strong>Border Services:</strong> Present your documents to the Canada Border Services Agency (CBSA) officer at the port of entry.</li><li><strong>Study Permit:</strong> The CBSA officer will issue your study permit at the port of entry.</li></ul></li></ol>",
+        "list": []
+      },
+      "scholarship": {
+        "content": "<p>Scholarships, as we know, are monetary funds awarded to eligible students who have demonstrated academic excellence. The money received through scholarships does not need to be paid back. Furthermore, students can apply for a multitude of scholarships if they meet the eligibility criteria.</p><p>The popular scholarships available in Canadian Universities are given below for students’ reference.</p><ol><li><strong>Canada-India Research Centre of Excellence (CIRCE) Fellowship:</strong><ul><li>Offered by the Shastri Indo-Canadian Institute, this fellowship supports Indian scholars pursuing research at Canadian institutions in areas of mutual interest between Canada and India.</li></ul></li><li><strong>Ontario Trillium Scholarship (OTS):</strong><ul><li>The OTS is a prestigious scholarship offered by the Government of Ontario to international PhD students, including those from India, to study at eligible Ontario universities.</li></ul></li><li><strong>Vanier Canada Graduate Scholarships:</strong><ul><li>These scholarships are awarded to doctoral students who demonstrate leadership skills and a high standard of scholarly achievement in the social sciences, humanities, natural sciences, engineering, or health research.</li></ul></li><li><strong>Canada Graduate Scholarships - Master's Program (CGS-M):</strong><ul><li>Administered by the Canadian Institutes of Health Research (CIHR), the Natural Sciences and Engineering Research Council of Canada (NSERC), and the Social Sciences and Humanities Research Council of Canada (SSHRC), these scholarships support high-achieving master's students in all disciplines.</li></ul></li><li><strong>University-specific Scholarships:</strong><ul><li>Many Canadian universities offer scholarships specifically for international students, including those from India. These may include merit-based scholarships, entrance scholarships, or scholarships based on academic achievement and financial need.</li></ul></li><li><strong>Government Scholarships:</strong><ul><li>Various government-funded scholarships and awards are available to international students, such as the Emerging Leaders in the Americas Program (ELAP) and the Canada-ASEAN Scholarships and Educational Exchanges for Development (SEED).</li></ul></li></ol>"
+      },
+      "post_study":{
+        "description": "<p>Canada offers post-study work permit options for international students who wish to remain and work in the country. Immigration, Refugees and Citizenship Canada (IRCC) administers the Post-Graduation Work Permit (PGWP) program, enabling international graduates to work in Canada for up to <strong>3 years</strong>.</p><p>Under the PGWP program, international students are permitted to work for any Canadian employer across various industries. If you completed a program lasting less than <strong>2 years</strong>, you can work for a duration equivalent to the length of your program under the PGWP program.</p>",
+       
+        "jobs": [
+          {
+            "jobTitle": "Business Intelligence Analysts",
+            "averageAnnualSalaryGBP": "$77,870"
+          },
+          {
+            "jobTitle": "Cloud Architects",
+            "averageAnnualSalaryGBP": "$121,555"
+          },
+          {
+            "jobTitle": "Cloud Systems Engineer",
+            "averageAnnualSalaryGBP": "$120,000"
+          },
+          {
+            "jobTitle": "IT Project Manager ",
+            "averageAnnualSalaryGBP": "$91,300"
+          },
+          {
+            "jobTitle": "Data Scientists",
+            "averageAnnualSalaryGBP": "$85,461"
+          },
+          {
+            "jobTitle": "Developers (Web, Software, Mobile) ",
+            "averageAnnualSalaryGBP": "$75,628"
+          },
+          {
+            "jobTitle": "DevOps Engineers",
+            "averageAnnualSalaryGBP": "$89,187"
+          },
+          {
+            "jobTitle": "Full-Stack Developers",
+            "averageAnnualSalaryGBP": "$88,542"
+          },
+          {
+            "jobTitle": "IoT Specialists",
+            "averageAnnualSalaryGBP": "$105,000"
+          },
+          {
+            "jobTitle": "Security Specialists (Data, Information, Network, Systems, Cloud)",
+            "averageAnnualSalaryGBP": "$100,000"
+          }
+        ]
+      }
+  }
+  

@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./touch.css";
 import student from "../../Images/home/student.png";
+import { useNavigate } from "react-router-dom";
+import EnquiryForm from "../floatingMenu/EnquiryForm";
 
 function Touch() {
+   const [isEnquiry,setIsEnquiry] = useState(false)
+  const navigate = useNavigate()
   return (
     <div className="container touch-container">
       <div class="box ">
@@ -13,7 +17,7 @@ function Touch() {
               Get in touch with us <br />
             </div>
             <div>
-            <button class="learn-more">
+            <button class="learn-more" onClick={()=>setIsEnquiry(!isEnquiry)} >
                 <span class="circle" aria-hidden="true">
                   <span class="icon arrow"></span>
                 </span>
@@ -28,6 +32,8 @@ function Touch() {
           </div>
         </div>
       </div>
+      
+      <EnquiryForm isEnquiry={isEnquiry} setIsEnquiry={setIsEnquiry} />
     </div>
   );
 }

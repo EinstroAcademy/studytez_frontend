@@ -1,0 +1,60 @@
+.profile-info{
+    border-width: 0px;
+}
+
+.profile-infoo .nav-item{
+    border-width: 0px;
+    border: none;
+}
+
+.profile-info .nav-link.active{
+    border-color: none!important;
+    border: 1px solid grey;
+    border-radius: 8px;
+    color: white;
+    background: #c5113e;
+}
+
+.profile-info .nav-link{
+    margin-right: 20px;
+    color: #c5113e;
+    font-weight: 600;
+}
+
+.profile-info .nav-link:hover{
+    border: 1px solid grey;
+    border-radius: 8px;
+    background: #c5113e;
+    color: white;
+}
+
+.deg-btn{
+    background-color: white;
+    color: blue;
+    border-radius: 8px;
+    padding: 8px 15px;
+}
+
+.discard-btn{
+    width:240px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px auto;
+    color: white;
+    font-weight: 600;
+    transition: opacity 0.2s ease;
+    background-color: #c5113e;
+}
+
+.save-btn{
+    width:240px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px auto;
+    color: white;
+    font-weight: 600;
+    transition: opacity 0.2s ease;
+    background-image: linear-gradient(to right,#EB2F96,#722ED1);
+}

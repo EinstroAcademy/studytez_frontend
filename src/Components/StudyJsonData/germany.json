@@ -1,0 +1,228 @@
+{
+    "part1": {
+      "title": "Study in Germany",
+      "subtitle": "The Best Study Abroad Consultancy for Germany",
+      "services": [
+        "Get free counselling",
+        "University and Course Selection",
+        "Application",
+        "Visa Process"
+      ],
+      "cta": {
+        "text": "Enroll Now",
+        "url": "#"
+      },
+      "images": {
+        "description": "Kangaroo on beach",
+        "url": "/studyImages/germany/germany-main.jpg"
+      },
+      "designElements": [
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        },
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        },
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        }
+      ]
+    },
+    "part2": {
+      "imagePlace": "left",
+      "title": "Why Study in Germany?",
+      "introduction": "For Indian students who desire to pursue higher education, Germany is the best country to study in. The unrivalled and internationally renowned higher education system is primarily what makes Germany so beneficial and deserving as a study destination.Germany is a country rich in culture and the arts, and one of its most notable features is the high calibre of its educational system. Through its education and expertise, this nation has produced some of the most successful people in the globe over the years.",
+      "benefits": [
+        {
+          "text": "Free Education in Public Universities"
+        },
+        {
+          "text": "Fewer Tuition Fees"
+        },
+        {
+          "text": "Highly-Ranked Universities"
+        },
+        {
+          "text": "Well-equipped research facilities"
+        },
+        {
+          "text": "Travel to Schengen countries"
+        }
+      ],
+      "images": {
+        "description": "Kangaroo on beach",
+        "url": "/studyImages/germany/germany-sub.png"
+      }
+    },
+    "universities": [
+      {
+        "name": "University of Würzburg",
+        "image": "/studyImages/germany/university-of-würzburg.png"
+      },
+      {
+        "name": "Ludwig Maximilian University",
+        "image": "/studyImages/germany/ludwig-maximilian-university.png"
+      },
+      {
+        "name": "RWTH Aachen University",
+        "image": "/studyImages/germany/rwth-aachen-university.png"
+      },
+      {
+        "name": "University of Cologne",
+        "image": "/studyImages/germany/university-of-cologne.jpg"
+      },
+      {
+        "name": "Ruhr University Bochum",
+        "image": "/studyImages/germany/ruhr-university-bochum.png"
+      },
+      {
+        "name": "Technical University of Munich",
+        "image": "/studyImages/germany/technical-university-of-munich.png"
+      },
+      {
+        "name": "University of Hamburg",
+        "image": "/studyImages/germany/universität-hamburg.png"
+      },
+      {
+        "name": "Goethe University Frankfurt",
+        "image": "/studyImages/germany/goethe-university-frankfurt.png"
+      }
+      
+    ],
+    "courses":{},
+    "sub_nav":true,
+  "reqImage":"/studyImages/germany/german_req.png",
+  "admission_requirements": {
+    "course": [
+      {
+        "name": "Diploma",
+        "details": "<h6>Educational Requirement</h6><p>Completion of secondary education or its international equivalent.</p><h6>English Language Proficiency</h6><ul><li><strong>IELTS:</strong> Minimum score of 6.0 and above</li><li><strong>TOEFL:</strong> 72 to 100</li><li><strong>CAE:</strong> 180 to 230</li></ul>"
+      },
+      {
+        "name": "Bachelor's",
+        "details": "<h6>Educational Requirement</h6><p>Completion of secondary education or its international equivalent, such as A-levels, an IB Diploma, or equivalent qualifications.</p><h6>English Language Proficiency</h6><ul><li><strong>IELTS:</strong> 6.0 to 7.5</li><li><strong>TOEFL:</strong> 72 to 100</li><li><strong>CAE:</strong> 180 to 230</li></ul>."
+      },
+      {
+        "name": "Master's",
+        "details": "<h6>Educational Requirement</h6><p>Bachelor's degree or its international equivalent from a recognized institution. The required grade or classification varies by university and program.</p><h6>English Language Proficiency</h6><ul><li><strong>IELTS:</strong> 6.5 to 7.5</li><li><strong>TOEFL:</strong> 90 to 100</li><li><strong>CAE:</strong> 180 to 230</li></ul>"
+      },
+      {
+        "name": "Doctorate",
+        "details": "<h6>Educational Requirement</h6><p>Master's degree or an equivalent qualification such as an MPhil (Master of Philosophy) from a recognized institution. Exceptional candidates with a Bachelor's degree and relevant research experience or achievements may also be considered.</p><h5>Application Requirement</h5><p>Submission of a research proposal outlining the topic, objectives, methodology, and potential outcomes of the proposed research project.</p><h6>English Language Proficiency</h6><ul><li><strong>IELTS:</strong> 6.5 to 7.0</li><li><strong>TOEFL:</strong> 90 to 100</li><li><strong>PTE:</strong> 58 to 65</li></ul><h6>Additional Requirement</h6><p>Some universities may conduct interviews to assess suitability for the program and ability to conduct independent research.</p>"
+      }
+    ],
+    "exams_required": {
+      "description": "International students typically need to meet academic requirements and demonstrate English language proficiency to study at German universities. The main exams and qualifications commonly required include:",
+      "title": "English Language Proficiency Exams:",
+      "list": [
+        "International English Language Testing System (IELTS)",
+        "Test of English as a Foreign Language (TOEFL)",
+        "Pearson Test of English (PTE)"
+      ]
+    }
+  },
+  "intake": [
+    {
+      "name": "Winter Intake (October to February)",
+      "details": [
+        "The winter intake is the primary intake for most universities in Germany, offering a wide range of courses across various disciplines.",
+        "January to March: Start shortlisting universities and programs of interest.",
+        "April to June: Prepare and take any necessary exams, such as the IELTS, TOEFL, GMAT, or GRE, depending on the course and university requirements.",
+        "July to August: Submit your applications to the chosen universities.",
+        "September: Attend interviews (if required) and await acceptance letters. Respond to offers promptly.",
+        "The final deadline for winter intake applications typically falls between July and August."
+      ]
+    },
+    {
+      "name": "Summer Intake (March to August):",
+      "details": [
+        "The summer intake is less common and offers fewer courses compared to the winter intake. However, it provides another opportunity for admission to German universities.",
+        "September to October of the previous year: Start shortlisting universities and programs of interest.",
+        "November to December: Prepare and take any necessary exams, such as the IELTS, TOEFL, GMAT, or GRE.",
+        "January to February: Submit your applications to the chosen universities.",
+        "March: Attend interviews (if required) and await acceptance letters. Respond to offers promptly.",
+        "The final deadline for summer intake applications typically falls between January and February."
+      ]
+    }
+  ],
+  "cost": {
+    "description": "Germany offers a diverse range of educational programs with varying tuition fees, depending on the type of institution (public or private), the level of study, and the specific program. Public universities in Germany generally do not charge tuition fees for undergraduate and most postgraduate programs, making it an attractive option for international students. However, private institutions and certain specialized programs may have higher fees.<p> International students can expect tuition fees ranging from €0 to €30,000 annually, depending on the institution and program. The average living expenses might range from €800 to €1,200 per month, including accommodation, food, rent, and other costs.</p>",
+    "table_headings":[
+        "Degree",
+        "Cost in Euro(Per Year)",
+        "Cost in INR(Per Year)"
+    ],
+    "cost_per_year": [
+      {
+        "degree": "Undergraduate (Bachelor's)",
+        "costInGBP": "€0 - €3,000",
+        "costInINR": "₹0 - ₹2,60,000"
+      },
+      {
+        "degree": "Postgraduate (Master's)",
+        "costInGBP": "€0 - €5,000",
+        "costInINR": "₹0 - ₹4,30,000"
+      },
+      {
+        "degree": "MBA",
+        "costInGBP": "€10,000 - €30,0000",
+        "costInINR": "₹8,70,000 - ₹26,00,000"
+      },
+      {
+        "degree": "PhD",
+        "costInGBP": "€0 - €3,000",
+        "costInINR": "₹0 - ₹2,60,000"
+      }
+    ]
+  },
+  "visa_requirements": {
+    "description": "<h6>International Student Requirements for Studying in Germany</h6><p>International students wishing to study at universities in Germany must meet certain academic requirements, demonstrate language proficiency, and fulfill other conditions. Here are the main requirements:</p><h6>Offer from Recognized Universities</h6><ul><li><strong>Unconditional Offer:</strong> You must have an unconditional offer of a place on a course from an approved German university.</li><li><strong>Confirmation of Enrollment (Zulassungsbescheid):</strong> The institution will provide you with a confirmation of enrollment.</li></ul><h6>Proof of German or English Language Proficiency</h6><ul><li><strong>Approved Language Test:</strong> You need to prove your knowledge of the German or English language by passing an approved language test or by having a qualification that was taught in German or English and is equivalent to a German degree.</li><li><strong>German Tests:</strong> Common tests include TestDaF, DSH, and Goethe-Zertifikat.</li><li><strong>English Tests:</strong> Common tests include IELTS, TOEFL, and others accepted by German institutions.</li></ul><h6>Financial Requirements</h6><ul><li><strong>Proof of Funds:</strong> You must show that you have enough money to support yourself and pay for your course. The amount varies depending on your situation.</li><li><strong>Amount Required:</strong> Generally, you need to show that you have at least €11,208 per year (approximately €934 per month) to cover living expenses.</li><li><strong>Evidence:</strong> Proof can be in the form of a blocked account (Sperrkonto), a letter of financial support, or a scholarship certificate.</li></ul><h6>Academic Qualifications</h6><ul><li><strong>Transcripts and Certificates:</strong> You need to provide your academic qualifications (transcripts, certificates) as required by your institution.</li><li><strong>Recognition of Qualifications:</strong> Your previous qualifications must be recognized in Germany. This can be checked through the database Anabin or by contacting the institution.</li></ul><h6>Passport and Photographs</h6><ul><li><strong>Valid Passport:</strong> A valid passport or travel document.</li><li><strong>Passport-sized Photographs:</strong> Photographs that meet German visa requirements.</li></ul><h6>Medical Insurance</h6><ul><li><strong>Health Insurance:</strong> Proof of health insurance coverage, either through a German statutory health insurance provider or a private health insurance plan that is recognized in Germany.</li></ul><h6>Proof of Accommodation</h6><ul><li><strong>Accommodation Details:</strong> Proof of accommodation in Germany, such as a rental agreement, a letter from a host, or confirmation from a student residence.</li></ul><h6>Visa Application</h6><ul><li><strong>National Visa Application (D Visa):</strong> Complete the national visa application form and gather the required documents for submission.</li></ul><h6>Visa Interview</h6><ul><li><strong>Appointment:</strong> Schedule and attend a visa interview at a German embassy or consulate in your country.</li><li><strong>Documents for Interview:</strong> Bring all required documents, including proof of enrollment, passport, photographs, proof of financial resources, academic transcripts, proof of health insurance, proof of accommodation, and the visa application form.</li></ul>",
+    "list": []
+  },
+  "scholarship": {
+    "content": "<div class=\"container\"><h5>Scholarships for Indian Students to Study in Germany</h5><p>Indian students have access to a variety of scholarships to study in Germany. These scholarships can significantly reduce the financial burden of studying abroad and are offered by the German government, universities, and private organizations. Here is a detailed explanation of some prominent scholarships available:</p><ol><li><strong>DAAD Scholarships</strong><ul><li><strong>Description:</strong> The German Academic Exchange Service (DAAD) offers a range of scholarships for international students at various academic levels.</li><li><strong>Eligibility:</strong> Varies by scholarship, generally based on academic excellence and specific criteria of each program.</li><li><strong>Coverage:</strong> Typically includes monthly stipend, travel allowance, health insurance, and sometimes tuition fees.</li></ul></li><li><strong>Deutschlandstipendium</strong><ul><li><strong>Description:</strong> This scholarship is a public-private partnership that provides financial and non-material support to high-achieving students from all over the world.</li><li><strong>Eligibility:</strong> Academic merit, social commitment, and personal achievements.</li><li><strong>Coverage:</strong> €300 per month, funded half by private sponsors and half by the German government.</li></ul></li><li><strong>Heinrich Böll Foundation Scholarships</strong><ul><li><strong>Description:</strong> The Heinrich Böll Foundation offers scholarships to undergraduates, graduates, and doctoral students from around the world.</li><li><strong>Eligibility:</strong> Academic excellence, social and political engagement, and interest in the values of the foundation.</li><li><strong>Coverage:</strong> Monthly stipend, travel costs, and other allowances.</li></ul></li><li><strong>Erasmus+ Scholarships</strong><ul><li><strong>Description:</strong> Erasmus+ offers scholarships for students to study or train abroad in Europe as part of their degree program.</li><li><strong>Eligibility:</strong> Students enrolled in higher education institutions participating in Erasmus+.</li><li><strong>Coverage:</strong> Monthly grants to cover travel and subsistence costs, varies by host country.</li></ul></li><li><strong>Konrad-Adenauer-Stiftung Scholarships</strong><ul><li><strong>Description:</strong> The Konrad-Adenauer-Stiftung provides scholarships to international students who have demonstrated above-average academic performance and political or social engagement.</li><li><strong>Eligibility:</strong> Academic excellence, socio-political engagement, and personal suitability.</li><li><strong>Coverage:</strong> Monthly stipend, health insurance, and travel expenses.</li></ul></li><li><strong>Friedrich Ebert Stiftung Scholarships</strong><ul><li><strong>Description:</strong> The Friedrich Ebert Foundation offers scholarships to students with socio-political engagement and above-average academic achievements.</li><li><strong>Eligibility:</strong> Academic merit, social and political engagement.</li><li><strong>Coverage:</strong> Monthly stipend, health insurance, and travel allowance.</li></ul></li><li><strong>KAAD Scholarships</strong><ul><li><strong>Description:</strong> The Catholic Academic Exchange Service (KAAD) offers scholarships to students from developing countries who are committed to returning to their home countries after completing their studies.</li><li><strong>Eligibility:</strong> Academic excellence, commitment to development in their home country, and Catholic orientation (though non-Catholics can also apply).</li><li><strong>Coverage:</strong> Monthly stipend, travel costs, and health insurance.</li></ul></li></ol> </div>"
+  },
+  "post_study":{
+    "description": "<div class=\"container\"><h5>Post-Study Work Opportunities for International Students in Germany</h5><p>International students in Germany on a valid student visa are allowed to stay in the country after finishing their education if they meet certain conditions. Graduates can apply for an 18-month residence permit to seek employment related to their field of study. Here are the details:</p><ul><li><strong>18-Month Job-Seeking Visa:</strong> A residence permit allowing graduates to stay in Germany for up to 18 months to look for a job related to their field of study.<ul><li><strong>Eligibility:</strong> Graduates with a recognized degree from a German university are eligible to apply.</li></ul></li><li><strong>EU Blue Card:</strong> A residence permit for highly skilled workers with a job offer that meets the salary threshold.<ul><li><strong>Eligibility:</strong> Graduates with a job offer related to their field of study with a minimum annual gross salary of €56,800 (or €44,304 in shortage occupations).</li></ul></li></ul></div>",
+    "jobs": [
+      {
+        "jobTitle": "Software Engineer",
+        "averageAnnualSalaryGBP": "€45,000 - €70,000"
+      },
+      {
+        "jobTitle": "Business Analyst",
+        "averageAnnualSalaryGBP": "€50,000 - €80,000"
+      },
+      {
+        "jobTitle": "Financial Analyst",
+        "averageAnnualSalaryGBP": "€45,000 - €65,000"
+      },
+      {
+        "jobTitle": "Marketing Executive",
+        "averageAnnualSalaryGBP": "€40,000 - €60,000"
+      },
+      {
+        "jobTitle": "Nurse",
+        "averageAnnualSalaryGBP": "€30,000 - €50,000"
+      },
+      {
+        "jobTitle": "Graphic Designer",
+        "averageAnnualSalaryGBP": "€30,000 - €50,000"
+      },
+      {
+        "jobTitle": "Data Analyst",
+        "averageAnnualSalaryGBP": "€45,000 - €70,000"
+      },
+      {
+        "jobTitle": "Research Scientist",
+        "averageAnnualSalaryGBP": "€50,000 - €80,000"
+      }
+    ]
+    
+    
+  }
+  }
+  

@@ -20,10 +20,10 @@
   }
   
   .journeySwiper .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 300px;
+    width: 150px;
+    height: 100px;
     object-fit: cover;
+    padding: 0px 20px;
   }
 
   .journeySwiper .swiper-pagination{
@@ -50,17 +50,22 @@
 
   .roadmap-content{
     color: rgb(0, 0, 0);
-    width: 70%;
-    font-size: 2rem;
+    width: 50%;
+    font-size: 1rem;
     font-weight: 500;
   }
 
   .expert-content{
     color: rgb(0, 0, 0);
-    width: 60%;
-    font-size: 2rem;
+    width: 50%;
+    font-size: 1rem;
     font-weight: 500;
     padding: 5px;
+  }
+
+  .expert-img{
+    width: 100px;
+    height: 100px;
   }
 
 

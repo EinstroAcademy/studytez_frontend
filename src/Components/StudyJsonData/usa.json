@@ -1,0 +1,267 @@
+{
+    "part1": {
+      "title": "Study in USA",
+      "subtitle": "The Best Study Abroad Consultancy for USA",
+      "services": [
+        "Get free counselling",
+        "University and Course Selection",
+        "Application",
+        "Visa Process"
+      ],
+      "cta": {
+        "text": "Enroll Now",
+        "url": "#"
+      },
+      "images": {
+        "description": "Kangaroo on beach",
+        "url": "/studyImages/usa/usa-main.jpg"
+      },
+      "designElements": [
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        },
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        },
+        {
+          "shape": "hexagon",
+          "color": "#D92027"
+        }
+      ]
+    },
+    "part2": {
+      "imagePlace": "left",
+      "title": "Why Study in the USA for Indian Students?",
+      "introduction": "For everyone looking to immigrate in search of a better life, the United States is the top option. The nation has a long history of immigration and diversity and has always been a major draw for those looking to settle down. Higher education institutions are more numerous in the United States than in any other nation, yet the quality of teaching offered by these academic institutions is recognized on a global scale.",
+      "benefits": [
+        {
+          "text": "Numerous Academic Courses"
+        },
+        {
+          "text": "Career Possibilities"
+        },
+        {
+          "text": "Outstanding Student Support"
+        },
+        {
+          "text": "Diversity of Culture"
+        },
+        {
+          "text": "Worldwide Recognition"
+        }
+      ],
+      "images": {
+        "description": "Kangaroo on beach",
+        "url": "/studyImages/usa/usa-sub.jpg"
+      }
+    },
+    "universities": [
+      {
+        "name": "University of Kansas",
+        "image": "/studyImages/usa/university-of-kansas.jpg"
+      },
+      {
+        "name": "Illinois State University",
+        "image": "/studyImages/usa/illinois-state-university.jpg"
+      },
+      {
+        "name": "Kent State University",
+        "image": "/studyImages/usa/kent-state-university.jpg"
+      },
+      {
+        "name": "Arizona State University",
+        "image": "/studyImages/usa/arizona-state-university.jpg"
+      },
+      {
+        "name": "University of Utah",
+        "image": "/studyImages/usa/university-utah.jpg"
+      },
+      {
+        "name": "Western Kentucky University",
+        "image": "/studyImages/usa/western-kentucky-university.jpg"
+      },
+      {
+        "name": "New York Institute of Technology",
+        "image": "/studyImages/usa/new-york-institute-of-technology.jpg"
+      },
+      {
+        "name": "Troy University",
+        "image": "/studyImages/usa/troy-university.jpg"
+      }
+      
+    ],
+    "courses":{
+        "title": "Popular Courses to Study in the USA",
+        "categories": [
+          {
+            "category": "Top 10 MS Courses in the USA",
+            "courses": [
+              "MS in Data Science",
+              "MS in Computer Science",
+              "MS in Engineering",
+              "MS in Business Analytics",
+              "MS in Petroleum Engineering",
+              "MS in Embedded Systems",
+              "MS in Game Design",
+              "MS in Wireless Communication",
+              "MS in Pharmacy",
+              "MS in Life Sciences"
+            ]
+          },
+          {
+            "category": "Top 10 MBA Courses in the USA",
+            "courses": [
+              "MBA in Finance",
+              "MBA in Entrepreneurship",
+              "MBA in Accounting",
+              "MBA in Healthcare",
+              "MBA in Human Resources",
+              "MBA in Marketing",
+              "MBA in Supply Chain Management",
+              "MBA in Public Administration",
+              "MBA in Fashion Management",
+              "MBA in Data Analytics"
+            ]
+          },
+          {
+            "category": "Bachelor Degree Courses in the USA",
+            "courses": [
+              "Bachelor of Business Administration",
+              "Bachelors of Business Accounting",
+              "Bachelor of Science",
+              "Bachelor of Engineering",
+              "BS in Mechanical Engineering",
+              "BS in Computer Science Engineering",
+              "BS in Aerospace Engineering",
+              "BS in Software Engineering",
+              "BA in Public Health",
+              "BS in Cybersecurity"
+            ]
+          }
+        ]
+      },
+      "sub_nav":true,
+      "reqImage":"/studyImages/usa/usa_req.png",
+      "admission_requirements": {
+        "course": [
+          {
+            "name": "Academic Qualifications",
+            "details": "<ul><li><strong>Undergraduate Programs:</strong> Indian students must have completed their secondary education (equivalent to U.S. high school) with strong academic performance.</li><li><strong>Graduate Programs:</strong> For master's or doctoral programs, students must have completed a bachelor's degree from a recognized institution with a satisfactory GPA.</li></ul>"
+          },
+          {
+            "name": "Standardized Tests",
+            "details": "<ul><li><strong>Undergraduate:</strong> Many universities require Indian students to take standardized tests such as the SAT (Scholastic Assessment Test) or ACT (American College Testing).</li><li><strong>Graduate:</strong> Depending on the program, students may need to take standardized tests like the GRE (Graduate Record Examination) for general programs or the GMAT (Graduate Management Admission Test) for business-related programs.</li></ul>"
+          },
+          {
+            "name": "English Language Proficiency",
+            "details": "<ul><li><strong>Indian students whose primary language is not English</strong> are typically required to demonstrate proficiency through exams such as the TOEFL (Test of English as a Foreign Language) or IELTS (International English Language Testing System).</li><li><strong>Some universities may accept English proficiency</strong> demonstrated through other means or by completing English language courses.</li></ul>"
+          }
+        ],
+        "exams_required": {}
+      },
+      "intake": [
+        {
+          "name": "Fall Intake(August/September):",
+          "details": [
+            "The fall intake is the primary intake period for most universities in the USA.",
+            "It aligns with the beginning of the academic year, which usually starts in August or September",
+            "Most undergraduate and graduate programs admit students for the fall semester.",
+            "Application deadlines for the fall intake are typically in the preceding fall or winter, with some universities offering early decision or early action options."
+          ]
+        },
+        {
+          "name": "Spring Intake(January/February):",
+          "details": [
+            "Some universities offer a secondary intake for certain programs, starting in the spring semester",
+            "The spring intake provides an opportunity for students who miss the fall intake deadlines or who wish to start their studies in the spring semester.",
+            "Programs available for the spring intake may be limited compared to the fall intake.",
+            "Application deadlines for the spring intake are usually in the preceding summer or fall."
+          ]
+        },
+        {
+          "name": "Summer Intake(May/June):",
+          "details": [
+            "Fewer universities offer a summer intake, primarily for specific programs or courses.",
+            "The summer term may include shorter sessions or specialized programs, such as intensive language courses or internships.",
+            "Application deadlines for the summer intake vary widely and may be earlier than other intakes due to the condensed nature of summer sessions."
+          ]
+        }
+      ],
+      "cost": {
+        "description": "The universities in the US are typically classified into two main categories: public-funded and private institutions. For international students, tuition expenses at state schools are based on non-resident costs, which tend to be more affordable compared to private universities. This calculation excludes student visa fees. On average, students should budget approximately $15,000 to $55,000 annually to cover tuition fees when studying in the USA",
+        "table_headings":[
+          "Study Program",
+          "Approximate Tuition Fees in USD"
+      ],
+        "cost_per_year": [
+          {
+            "degree": "Undergraduate Bachelor Degree",
+            "costInGBP": "$15,000 to $50,000 per year"
+          },
+          {
+            "degree": "Graduate programs",
+            "costInGBP": "$16,000 to $50,000 per year"
+          },
+          {
+            "degree": "Doctoral Degree",
+            "costInGBP": "$20,000 to $55,000 per year"
+          }
+        ]
+      },
+      "visa_requirements": {
+        "description": "<h6>USA Student Visa (F-1) Checklist</h6><ol><li><h6>Acceptance to a SEVP-Approved School</h6><ul><li><strong>Acceptance Letter:</strong> Obtain an acceptance letter from a Student and Exchange Visitor Program (SEVP)-approved institution.</li><li><strong>I-20 Form:</strong> Receive the Form I-20 (Certificate of Eligibility for Nonimmigrant Student Status) from your school. This form is crucial for your visa application.</li></ul></li><li><h6>Pay the SEVIS Fee</h6><ul><li><strong>SEVIS I-901 Fee:</strong> Pay the SEVIS (Student and Exchange Visitor Information System) I-901 fee online. Print the confirmation receipt, as you will need it for your visa interview.</li></ul></li><li><h6>Complete the Online Visa Application (DS-160)</h6><ul><li><strong>DS-160 Form:</strong> Fill out the DS-160 form online. This form is your nonimmigrant visa application.</li><li><strong>Photo:</strong> Upload a recent photo that meets the U.S. visa photo requirements.</li><li><strong>Confirmation Page:</strong> Print the DS-160 confirmation page with the barcode. This will be required for your visa interview.</li></ul></li><li><h6>Pay the Visa Application Fee</h6><ul><li><strong>Application Fee:</strong> Pay the non-refundable visa application fee. The fee amount varies by country, so check the current fee for your location.</li><li><strong>Receipt:</strong> Keep the receipt of the payment, as you will need it for your visa interview.</li></ul></li><li><h6>Schedule Your Visa Interview</h6><ul><li><strong>Appointment:</strong> Schedule an appointment for your visa interview at the nearest U.S. Embassy or Consulate. Wait times for interviews can vary, so schedule early.</li><li><strong>Confirmation:</strong> Print the appointment confirmation letter.</li></ul></li><li><h6>Prepare for the Visa Interview</h6><p>Required Documents:</p><ul><li><strong>Passport:</strong> Your passport must be valid for at least six months beyond your intended stay in the USA.</li><li><strong>Form I-20:</strong> The original Form I-20 signed by both you and a school official.</li><li><strong>DS-160 Confirmation:</strong> The DS-160 confirmation page with barcode.</li><li><strong>SEVIS Fee Receipt:</strong> Proof of SEVIS I-901 fee payment.</li><li><strong>Visa Fee Receipt:</strong> Proof of visa application fee payment.</li><li><strong>Photo:</strong> A passport-sized photo that meets U.S. visa requirements.</li><li><strong>Financial Evidence:</strong> Proof of sufficient funds to cover your tuition and living expenses while in the USA. This can include bank statements, scholarship letters, or financial affidavits.</li><li><strong>Academic Documents:</strong> Transcripts, diplomas, degrees, or certificates from previous schools attended.</li><li><strong>Standardized Test Scores:</strong> TOEFL, IELTS, GRE, GMAT, or other test scores as required by your U.S. institution.</li><li><strong>Ties to Home Country:</strong> Documents that demonstrate your intention to return to your home country after your studies. This could include a letter from an employer, property ownership documents, or family ties.</li></ul></li><li><h6>Attend the Visa Interview</h6><ul><li><strong>Arrival:</strong> Arrive early at the U.S. Embassy or Consulate.</li><li><strong>Documents:</strong> Bring all required documents.</li><li><strong>Questions:</strong> Be prepared to answer questions about your study plans, your chosen program, your financial situation, and your intentions to return home after graduation.</li></ul></li><li><h6>After the Interview</h6><ul><li><strong>Visa Approval:</strong> If approved, your passport will be returned to you with the F-1 visa stamp.</li><li><strong>Visa Denial:</strong> If denied, the consular officer will explain the reasons for the denial and whether you can reapply.</li></ul></li><li><h6>Prepare for Departure</h6><ul><li><strong>Travel Arrangements:</strong> Make travel arrangements to the USA.</li><li><strong>Documents for Travel:</strong> Keep your passport, visa, Form I-20, and financial documents in your carry-on luggage.</li><li><strong>Orientation:</strong> Attend any pre-departure orientations offered by your school or educational advising centers.</li></ul></li><li><h6>Arrival in the USA</h6><ul><li><strong>Customs and Border Protection (CBP):</strong> Present your documents to the CBP officer upon arrival.</li><li><strong>I-94 Form:</strong> You will receive an electronic I-94 form, which indicates your visa status and duration of stay.</li></ul></li></ol>",
+        "list": []
+      },
+      "scholarship": {
+        "content": "<ul><li><strong>Fulbright-Nehru Master’s Fellowships:</strong><ul><li>Offered by the United States-India Educational Foundation (USIEF), these fellowships support Indian students pursuing master's degrees at select U.S. universities in various fields.</li></ul></li><li><strong>Tata Scholarships for Cornell University:</strong><ul><li>Cornell University offers scholarships for undergraduate students from India with financial need. These scholarships cover full tuition and living expenses.</li></ul></li><li><strong>Stanford Reliance Dhirubhai Fellowships for Indian Students:</strong><ul><li>Stanford Graduate School of Business offers fellowships to Indian students who demonstrate financial need and strong academic merit in their MBA program.</li></ul></li><li><strong>Ohio Wesleyan University Global Scholars Program:</strong><ul><li>This program offers full-tuition scholarships to international students, including those from India, who demonstrate outstanding academic achievement and leadership potential.</li></ul></li><li><strong>University of Southern California International Scholarships:</strong><ul><li>USC offers a range of scholarships for international students, including the USC Presidential Scholarship and the USC Dean's Scholarship, which cover tuition and fees for undergraduate studies.</li></ul></li><li><strong>University of Arizona International Tuition Awards:</strong><ul><li>The University of Arizona offers merit-based scholarships to international students, including those from India, to help cover the cost of tuition for undergraduate or graduate studies.</li></ul></li><li><strong>MIT Tata Center Fellowships:</strong><ul><li>The Tata Center for Technology and Design at MIT offers fellowships to Indian students pursuing graduate studies in areas related to technology and development.</li></ul></li><li><strong>University of Bridgeport International Student Scholarships:</strong><ul><li>The University of Bridgeport offers various scholarships for international students, including the Global Leaders of Tomorrow Full Scholarship and the International Student Scholarships.</li></ul></li></ul>"
+      },
+      "post_study":{
+        "description": "<div class=\"container\"><p>After graduation, international students can remain in the USA for <strong>60 days</strong>. If they intend to work in non-STEM programs, they can apply for <strong>optional practical training (OPT)</strong>. <strong>Curricular practical training (CPT)</strong> is available during the course period, and OPT can be pursued either before or after graduation.</p><p>For non-STEM programs, the country offers a <strong>one-year post-study work visa</strong>, while for STEM programs, a <strong>three-year work visa</strong> is available.</p></div>",
+       
+        "jobs": [
+          {
+            "jobTitle": "Administrative Services",
+            "averageAnnualSalaryGBP": "USD 1,06,550"
+          },
+          {
+            "jobTitle": "Advertising and Marketing",
+            "averageAnnualSalaryGBP": "USD 1,43,330"
+          },
+          {
+            "jobTitle": "Architecture and Engineering",
+            "averageAnnualSalaryGBP": "USD 1,52,930"
+          },
+          {
+            "jobTitle": "Computer and Information Systems",
+            "averageAnnualSalaryGBP": "USD 1,56,390"
+          },
+          {
+            "jobTitle": "Education and Childcare",
+            "averageAnnualSalaryGBP": "USD 53,690"
+          },
+          {
+            "jobTitle": "Public Relations",
+            "averageAnnualSalaryGBP": "USD 1,32,630"
+          },
+          {
+            "jobTitle": "Medical and Health Services",
+            "averageAnnualSalaryGBP": "USD 1,15,160"
+          },
+          {
+            "jobTitle": "Management",
+            "averageAnnualSalaryGBP": "USD 53,490"
+          },
+          {
+            "jobTitle": "Statistics and Data Science",
+            "averageAnnualSalaryGBP": "USD 1,03,930"
+          },
+          {
+            "jobTitle": "Electrical and Electronics Engineering",
+            "averageAnnualSalaryGBP": "USD 1,00,830"
+          }
+        ]
+      }
+  }
+  

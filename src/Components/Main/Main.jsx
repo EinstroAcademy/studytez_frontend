@@ -8,6 +8,8 @@ import KnowUs from "../KnowUs/KnowUs";
 import Layout from "../Layout/Layout";
 import Touch from "../Touch/Touch";
 import Media from "../Media/Media";
+import Service from "../Service/Service";
+import Country from "../Country/Country";
 
 function Main() {
   return (
@@ -15,9 +17,10 @@ function Main() {
       <Layout>
         <Home />
         <Journey />
+        <Service/>
         <About />
-        <Explore />
-        <Services />
+        {/* <Explore /> */}
+        <Country/>
         <Media/>
         <KnowUs />
         <Touch/>

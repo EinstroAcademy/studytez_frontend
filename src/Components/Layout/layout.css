@@ -1,0 +1,6 @@
+section.main-section {
+    position: relative;
+    margin-left: auto;
+    min-height: 100vh;
+    padding: calc(48px + 24px) 20px;
+  }

@@ -1,0 +1,274 @@
+{
+  "part1": {
+    "title": "Study in UK",
+    "subtitle": "Best UK Study Abroad Consultants",
+    "services": [
+      "Get free counselling",
+      "University and Course Selection",
+      "Application",
+      "Visa Process"
+    ],
+    "cta": {
+      "text": "Enroll Now",
+      "url": "#"
+    },
+    "images": {
+      "description": "Kangaroo on beach",
+      "url": "/studyImages/uk/uk-img.png"
+    },
+    "designElements": [
+      {
+        "shape": "hexagon",
+        "color": "#D92027"
+      },
+      {
+        "shape": "hexagon",
+        "color": "#D92027"
+      },
+      {
+        "shape": "hexagon",
+        "color": "#D92027"
+      }
+    ]
+  },
+  "part2": {
+    "imagePlace": "left",
+    "title": "Why Study in the UK for Indian Students?",
+    "introduction": "Qualifications from the United Kingdom are recognised and appreciated around the world. In the recently revealed QS World University Rankings 2022, the United Kingdom features 90 universities, including four of the top ten entries. Your UK qualification will serve as a firm foundation for creating your future, advancing your profession and increasing your chances of earning a higher pay. Universities, colleges, and institutions in the United Kingdom will give you a vibrant, creative, and demanding atmosphere to develop your potential.",
+    "benefits": [
+      {
+        "text": "Globally Accepted Qualification"
+      },
+      {
+        "text": "Quality Education and Internationally recognized"
+      },
+      {
+        "text": "Strong Research Infrastructure"
+      },
+      {
+        "text": "Shorter duration of courses"
+      },
+      {
+        "text": "Work while studying"
+      },
+      {
+        "text": "Work Permit after studying"
+      }
+    ],
+    "images": {
+      "description": "Kangaroo on beach",
+      "url": "/studyImages/uk/uk-2.png"
+    }
+  },
+  "universities": [
+    {
+      "name": "Middlesex University",
+      "image": "/studyImages/uk/middlesex-university.png"
+    },
+    {
+      "name": "University of Liverpool",
+      "image": "/studyImages/uk/university-of-liverpool.png"
+    },
+    {
+      "name": "University of Hertfordshire",
+      "image": "/studyImages/uk/university-of-herdforshire.jpg"
+    },
+    {
+      "name": "Nottingham Trent University",
+      "image": "/studyImages/uk/nottingham-trent-university.jpg"
+    },
+    {
+      "name": "The University of Sheffield",
+      "image": "/studyImages/uk/university-of-sheffield.jpg"
+    },
+    {
+      "name": "University of East Angila",
+      "image": "/studyImages/uk/university-of-east-angila.jpg"
+    },
+    {
+      "name": "De Monfort University",
+      "image": "/studyImages/uk/de-monfort-university.jpg"
+    }
+  ],
+  "courses": {
+    "title": "Popular Courses to Study in the UK for Indian Students",
+    "categories": [
+      {
+        "category": "Top 10 Master's Degree in the UK",
+        "courses": [
+          "Master's in Petroleum Engineering",
+          "Master's in Architectural Design",
+          "Master's in Finance",
+          "Master's in Economics",
+          "Master's in Computer Science",
+          "Master's in Civil Engineering",
+          "Master's in Mechanical Engineering",
+          "MBA in Healthcare Management",
+          "MBA in Human Resources",
+          "MBA in Investment Banking"
+        ]
+      },
+      {
+        "category": "Top 10 MSC Courses in the UK",
+        "courses": [
+          "MSc Data Science",
+          "MSc Cybersecurity",
+          "MSc Health Data Science",
+          "MSc Strategic Fashion Management",
+          "MSc International Management",
+          "MSc Clinical Psychology",
+          "MSc Global Public Health",
+          "MSc Nutrition",
+          "MSc Food Science",
+          "MSc Education"
+        ]
+      },
+      {
+        "category": "Top 10 Bachelor Degree Courses",
+        "courses": [
+          "BSc(Hons) Accounting and Finance",
+          "BSc(Hons) Mechanical Engineering",
+          "BSc(Hons) Architecture",
+          "BSc(Hons) Artificial Intelligence",
+          "BEng(Hons) Automotive Engineering",
+          "BSc(Hons) Banking and Finance",
+          "BSc(Hons) Biomedical Science",
+          "BBA(Hons) Business Administration",
+          "BA(Hons) Human Resource",
+          "BSc(Hons) Civil Engineering"
+        ]
+      }
+    ]
+  },
+  "sub_nav": true,
+  "reqImage": "/studyImages/uk/uk_req.png",
+  "admission_requirements": {
+    "course": [
+      {
+        "name": "Diploma",
+        "details": "A minimum level of educational qualification is required, usually equivalent to the completion of secondary education or its international equivalent. A minimum IELTS score of 6.0 and above, TOEFL - 72 to 100, and CAE - 180 to 230 is required."
+      },
+      {
+        "name": "Bachelor's",
+        "details": "Typically, you will need to have completed secondary education or its international equivalent, such as A-levels, an IB Diploma, or equivalent qualifications from your country. A minimum IELTS score of 6.0 to 7.5,TOEFL - 72 to 100, and CAE - 180 to 230 is required."
+      },
+      {
+        "name": "Master's",
+        "details": "You will need a Bachelor&#39;s degree or its international equivalent from a recognized institution. The required grade or classification may vary depending on the university and program. A minimum IELTS score of 6.5 to 7.5, TOEFL - 90 to 100, and CAE - 180 to 230 is required."
+      },
+      {
+        "name": "Doctorate",
+        "details": "You must hold a Master&#39;s degree or an equivalent qualification, such as an MPhil (Master of Philosophy), from a recognized institution. Some universities may accept exceptional candidates with a Bachelor&#39;s degree, provided they have relevant research experience or achievements. You are usually required to submit a research proposal outlining the topic, objectives, methodology, and potential outcomes of your proposed research project. This proposal demonstrates your ability to conduct independent research and contribute to the field. A minimum score of 6.5 to 7.0 in IELTS, TOEFL - 90 to 100, and PTE - 58 to 65 is required. Some universities may conduct interviews as part of the admissions process to assess your suitability for the program and your ability to carry out independent research."
+      }
+    ],
+    "exams_required": {
+      "description": "To study at UK universities, international students typically need to meet certain academic requirements and demonstrate their English language proficiency. Here are the main exams and qualifications commonly required:",
+      "title": "English Language Proficiency Exams:",
+      "list": [
+        "International English Language Testing System (IELTS)",
+        "Test of English as a Foreign Language (TOEFL)",
+        "Pearson Test of English (PTE)",
+        "Cambridge English Qualifications (such as CAE or CPE)"
+      ]
+    }
+  },
+  "intake": [
+    {
+      "name": "Fall Intake(September - October):",
+      "details": [
+        "This is the primary intake period for most courses at UK universities.",
+        "The autumn intake aligns with the start of the academic year in the UK, which usually begins in September or October.",
+        "The majority of undergraduate and postgraduate programs start during this period.",
+        "Students applying for the autumn intake usually need to submit their applications well in advance, typically by January or February of the same year for undergraduate courses, and earlier for some postgraduate programs."
+      ]
+    },
+    {
+      "name": "Winter Intake(January – February):",
+      "details": [
+        "Some universities in the UK offer a smaller number of courses with a spring intake, particularly at the postgraduate level.",
+        "The spring intake provides an opportunity for students who missed the autumn intake deadlines or who prefer to start their studies at a different time of the year.",
+        "While less common than the autumn intake, the spring intake still offers a range of options for students, especially for certain specialized courses or programs."
+      ]
+    },
+    {
+      "name": "Summer:",
+      "details": [
+        "Summer: It is from April and May. Not all universities and courses have this intake. The pool of applicants is smaller than the first two intakes.However, due to this, students have a better chance of getting in."
+      ]
+    }
+  ],
+  "cost": {
+    "description": "UK tuition fees vary for the four countries: England, Scotland, Wales,and Northern Ireland. The cost of studying in the UK depends on the university and the type of program you choose. Studying in the UK offers a high return on investment (ROI). The cost of studying in the United Kingdom is comparatively lower than in the USA and Australia. UK university fees depend on the type of university. Tuition fees are higher in private universities compared to public universities.<p> International students can expect tuition fees between £10,000 - £30,000 annually. The average living expenses might range from £800 to £2,300 per month, including accommodation, food, rent, and other costs.</p>",
+    "table_headings": [
+      "Degree",
+      "Cost in GBP(Per Year)",
+      "Cost in INR(Per Year)"
+    ],
+    "cost_per_year": [
+      {
+        "degree": "Undergraduate (Bachelor's)",
+        "costInGBP": "£10,000 - £30,000",
+        "costInINR": "₹9,50,000 - ₹28,50,000"
+      },
+      {
+        "degree": "Postgraduate (Master's)",
+        "costInGBP": "£12,000 - £35,000",
+        "costInINR": "₹11,40,000 - ₹33,25,000"
+      },
+      {
+        "degree": "MBA",
+        "costInGBP": "£15,000 - £60,000",
+        "costInINR": "₹14,25,000 - ₹57,00,000"
+      },
+      {
+        "degree": "PhD",
+        "costInGBP": "£13,000 - £27,000",
+        "costInINR": "₹12,35,000 - ₹25,65,000"
+      }
+    ]
+  },
+  "visa_requirements": {
+    "description": "<h6>UK Student Visa Requirements:</h6><ol><li><h6>Acceptance to a Course</h6><ul><li><strong>Confirmation of Acceptance for Studies (CAS):</strong> Obtain a CAS from a licensed Tier 4 sponsor. The CAS is a unique reference number provided by your university or college, confirming that you have been accepted onto a course.</li></ul></li><li><h6>Financial Requirements</h6><ul><li><strong>Course Fees:</strong> Proof that you can pay for your course fees for the first year of study.</li><li><strong>Living Costs:</strong> Proof that you have sufficient funds to cover your living costs for up to nine months. The amount required depends on the location of your university:<ul><li><strong>Inside London:</strong> £1,334 per month</li><li><strong>Outside London:</strong> £1,023 per month</li></ul></li><li><strong>Bank Statements:</strong> Bank statements, financial sponsorship letters, or evidence of educational loans to show you have the required funds.</li></ul></li><li><h6>English Language Proficiency</h6><ul><li><strong>Test Scores:</strong> Provide proof of English language proficiency through approved tests like IELTS, TOEFL, or equivalent, unless you are exempt (e.g., you are from an English-speaking country or have a degree taught in English).</li></ul></li><li><h6>Immigration Health Surcharge (IHS)</h6><ul><li><strong>IHS Payment:</strong> Pay the Immigration Health Surcharge to access the UK’s National Health Service (NHS). The cost is typically £470 per year for students.</li></ul></li><li><h6>Tuberculosis Test</h6><ul><li><strong>TB Test:</strong> If you are from a country where you must take the tuberculosis test, provide a certificate confirming you are free from TB.</li></ul></li><li><h6>Valid Passport</h6><ul><li><strong>Passport:</strong> A valid passport or travel document. Ensure your passport is valid for the duration of your stay in the UK.</li></ul></li><li><h6>Visa Application</h6><ul><li><strong>Online Application:</strong> Complete the online visa application form on the UK government website.</li><li><strong>Application Fee:</strong> Pay the visa application fee. As of now, the cost is £348.</li></ul></li><li><h6>Biometric Information</h6><ul><li><strong>Biometric Appointment:</strong> Schedule and attend a biometric appointment to provide your fingerprints and a photograph.</li></ul></li><li><h6>Supporting Documents</h6><p>Prepare the following supporting documents:</p><ul><li><strong>CAS Number:</strong> Confirmation of Acceptance for Studies.</li><li><strong>Proof of Funds:</strong> Bank statements or financial sponsorship letters.</li><li><strong>English Language Proficiency:</strong> Test results.</li><li><strong>Tuberculosis Test Results:</strong> If applicable.</li><li><strong>Academic Documents:</strong> Certificates, transcripts, and any other academic qualifications.</li><li><strong>ATAS Certificate:</strong> If required for your course, an Academic Technology Approval Scheme (ATAS) certificate.</li><li><strong>Photographs:</strong> Passport-sized photos that meet UK visa requirements.</li><li><strong>Immigration History:</strong> Details of your previous travel and visa history, if applicable.</li></ul></li><li><h6>Attend the Visa Interview (if required)</h6><ul><li><strong>Interview:</strong> Some students may be required to attend a credibility interview where you will be asked about your course, institution, finances, and plans after studying in the UK.</li></ul></li><li><h6>After the Application</h6><ul><li><strong>Decision:</strong> Wait for a decision on your visa application. Processing times can vary, so apply well in advance of your course start date.</li><li><strong>BRP Collection:</strong> Once your visa is approved, collect your Biometric Residence Permit (BRP) within 10 days of your arrival in the UK.</li></ul></li></ol><h6>Tips for a Successful Application</h6><ul><li><strong>Apply Early:</strong> Start your visa application process as soon as you receive your CAS.</li><li><strong>Check Requirements:</strong> Ensure you meet all the requirements and provide accurate information.</li><li><strong>Prepare Documents:</strong> Gather all necessary documents in advance and ensure they meet the specified criteria.</li><li><strong>Seek Help:</strong> If you have any doubts, seek assistance from your university’s international office or a visa advisor.</li></ul>",
+    "list": []
+  },
+  "scholarship": {
+    "content": "<div class=\"container\"><p>Indian students have access to a variety of scholarships to study in the UK. These scholarships can significantly reduce the financial burden of studying abroad and are offered by the UK government, universities, and private organizations. Here is a detailed explanation of some prominent scholarships available:</p> <h6>1. Chevening Scholarships</h6> <p><strong>Description:</strong> Funded by the UK government, Chevening Scholarships are awarded to outstanding emerging leaders from around the world to pursue a one-year master&rsquo;s degree in any subject at any UK university.</p> <p><strong>Eligibility:</strong> Candidates must have at least two years of work experience and demonstrate leadership potential.</p> <p><strong>Coverage:</strong> Full tuition fees, living expenses, and return airfare.</p> <h6>2. Commonwealth Scholarships</h6> <p><strong>Description:</strong> These scholarships are aimed at students from Commonwealth countries who would not otherwise be able to afford to study in the UK. They cover master's and PhD programs.</p> <p><strong>Eligibility:</strong> Applicants must be from a Commonwealth country and demonstrate academic excellence.</p> <p><strong>Coverage:</strong> Tuition fees, airfare, and a living allowance.</p> <h6>3. GREAT Scholarships</h6> <p><strong>Description:</strong> The British Council offers GREAT Scholarships in partnership with UK universities to students from various countries, including India.</p> <p><strong>Eligibility:</strong> Each university has its own specific criteria, generally focused on academic excellence.</p> <p><strong>Coverage:</strong> Scholarships worth &pound;10,000 towards tuition fees for one-year postgraduate courses.</p> <h6>4. University-Specific Scholarships</h6> <p>Many UK universities offer scholarships specifically for Indian students. Some notable examples include:</p> <ul> <li><strong>Oxford India Centre for Sustainable Development Scholarships:</strong> For Indian students at the University of Oxford.</li> <li><strong>Edinburgh Global Research Scholarships:</strong> For international students at the University of Edinburgh.</li> <li><strong>Manchester India Partnership Scholarships:</strong> For Indian students at the University of Manchester.</li> </ul> </div>"
+  },
+  "post_study": {
+    "description": "<div class=\"container\"><p>International students in the UK on a valid Tier 4 visa are allowed to stay in the country after finishing their education if they have a job offer worth at least GBP 20,800 per year.</p> <p>To stay in the UK, such students can move from a Tier 4 visa to a Tier 2 General visa with a five-year validity period.</p> <p>Students' post-study work experience will assist them in applying for permanent residence in the United Kingdom.</p></div>",
+    "jobs": [
+      {
+        "jobTitle": "Software Engineer",
+        "averageAnnualSalaryGBP": "£30,000 - £70,000"
+      },
+      {
+        "jobTitle": "Business Analyst",
+        "averageAnnualSalaryGBP": "£35,000 - £60,000"
+      },
+      {
+        "jobTitle": "Financial Analyst",
+        "averageAnnualSalaryGBP": "£30,000 - £50,000"
+      },
+      {
+        "jobTitle": "Marketing Executive",
+        "averageAnnualSalaryGBP": "£25,000 - £40,000"
+      },
+      {
+        "jobTitle": "Nurse",
+        "averageAnnualSalaryGBP": "£24,000 - £40,000"
+      },
+      {
+        "jobTitle": "Graphic Designer",
+        "averageAnnualSalaryGBP": "£22,000 - £40,000"
+      },
+      {
+        "jobTitle": "Data Analyst",
+        "averageAnnualSalaryGBP": "£30,000 - £50,000"
+      },
+      {
+        "jobTitle": "Research Scientist",
+        "averageAnnualSalaryGBP": "£30,000 - £55,000"
+      }
+    ]
+  }
+}

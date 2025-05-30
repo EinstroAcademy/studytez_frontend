@@ -1,0 +1,259 @@
+{
+  "part1": {
+    "title": "Study in Australia",
+    "subtitle": "The Best Study Abroad Consultancy for Australia",
+    "services": [
+      "Get free counselling",
+      "University and Course Selection",
+      "Application",
+      "Visa Process"
+    ],
+    "cta": {
+      "text": "Enroll Now",
+      "url": "#"
+    },
+    "images": {
+      "description": "Kangaroo on beach",
+      "url": "/studyImages/australia/australia-main.jpg"
+    },
+    "designElements": [
+      {
+        "shape": "hexagon",
+        "color": "#dd0e3a"
+      },
+      {
+        "shape": "hexagon",
+        "color": "#dd0e3a"
+      },
+      {
+        "shape": "hexagon",
+        "color": "#dd0e3a"
+      }
+    ]
+  },
+  "part2": {
+    "imagePlace": "left",
+    "title": "Why Study in Australia?",
+    "introduction": "Australian qualifications are respected internationally when seeking employment or further study at leading international universities. Distinguishing Australia from many other countries is the Australian Qualifications Framework (AQF), which is a national system of leading pathways recognised throughout Australia and by other countries. Very friendly and cooperative people.",
+    "benefits": [
+      {
+        "text": "Australian cities are ranked as some of the most liveable in the world"
+      },
+      {
+        "text": "Four years of post-study work visa for select bachelor’s degrees"
+      },
+      {
+        "text": "Five years of post-study work visa for select master’s degrees"
+      },
+      {
+        "text": "Part-time working hour is 40 to 48 hours per fortnight, from July 1, 2023"
+      },
+      {
+        "text": "Australia is a technologically advanced country"
+      }
+    ],
+    "images": {
+      "description": "Kangaroo on beach",
+      "url": "/studyImages/australia/australia-sub.png"
+    }
+  },
+  "universities": [
+    {
+      "name": "La Trobe University",
+      "image": "/studyImages/australia/la-trobe-university.png"
+    },
+    {
+      "name": "Western Sydney University",
+      "image": "/studyImages/australia/western-sydney-university.png"
+    },
+    {
+      "name": "Edith Cowan University",
+      "image": "/studyImages/australia/edith-cowan-university.png"
+    },
+    {
+      "name": "University of Melbourne",
+      "image": "/studyImages/australia/university-of-melbourne.png"
+    },
+    {
+      "name": "Monash University",
+      "image": "/studyImages/australia/monash-university.png"
+    },
+    {
+      "name": "The University of Queensland",
+      "image": "/studyImages/australia/the-university-of-queensland.png"
+    },
+    {
+      "name": "RMIT University",
+      "image": "/studyImages/australia/rmit-university.png"
+    },
+    {
+      "name": "Murdoch University",
+      "image": "/studyImages/australia/murdoch-university.png"
+    }
+  ],
+  "courses": {
+    "title": "Popular Courses to Study in Australia for Indian Students",
+    "categories": [
+      {
+        "category": "Bachelor Degree Courses in Australia",
+        "courses": [
+          "Bachelor of Science",
+          "Bachelor of Biomedical Science",
+          "Bachelor of Medical Science",
+          "Bachelor of Project Management",
+          "Bachelor of Civil Engineering",
+          "Bachelor of Science (Lab)",
+          "Bachelor of Mechanical Engineering",
+          "Bachelor of Agriculture",
+          "Bachelor of Marine Science",
+          "Bachelor of Environmental Science"
+        ]
+      },
+      {
+        "category": "Top 10 Master's Degree in Australia",
+        "courses": [
+          "Master of Environmental Science",
+          "Master of Biotechnology",
+          "Master of Agricultural Science",
+          "Master of Molecular Biology",
+          "Master of Food Science",
+          "Master of Food Science and Technology",
+          "Master of Pharmaceutical",
+          "Master of Wine Business",
+          "Master of Medical Biotechnology",
+          "Master of Science (Chemistry)"
+        ]
+      },
+      {
+        "category": "Top IT Courses in Australia",
+        "courses": [
+          "Master of Data Science",
+          "Master of Information Systems",
+          "Master of Cyber Security",
+          "Master of Computing",
+          "Master of Information Technology",
+          "Master of Networking",
+          "Master of Business Analytics",
+          "Master of Computer Science",
+          "Master of Software Engineering",
+          "Master of Computing and Innovation"
+        ]
+      }
+    ]
+  },
+  "sub_nav": true,
+  "reqImage":"/studyImages/australia/australia_req.png",
+  "admission_requirements": {
+    "course": [
+      {
+        "name": "Graduate Diploma",
+        "details": "<ul><li>You must have achieved an undergraduate qualification equivalent to an Australian bachelor's degree.</li><li>A minimum IELTS Academic score of 6.5 or a TOEFL score of at least 79 is required.</li></ul>"
+      },
+      {
+        "name": "Bachelor's Degree",
+        "details": "<ul><li>Secondary school qualification equivalent to an Australian Year 12 certificate.</li><li>Minimum IELTS score of 6.0 or TOEFL score of 67.</li><li>Statement of purpose.</li></ul>"
+      },
+      {
+        "name": "Master's",
+        "details": "<ul><li>Undergraduate qualification equivalent to a bachelor's degree, honours degree, or graduate diploma in Australia.</li><li>IELTS Academic score of 6.5 or TOEFL score of 79.</li><li>GRE/GMAT.</li><li>References, statement of purpose, and resume.</li><li>Proof of work experience.</li></ul>"
+      },
+      {
+        "name": "Doctorate",
+        "details": "<ul><li>Honours degree, master's degree by coursework with a research component, or an equivalent qualification from a recognised university.</li><li>IELTS Academic score of 6.5 or TOEFL score of 79.</li><li>Proof of work experience.</li></ul>"
+      }
+    ],
+    "exams_required": {
+      "description": "The exam requirements for studying in Australian universities can vary depending on the institution and the course of study. Here are some of the common exams that international students may be required to take:",
+      "title": "English Language Proficiency Tests (Undergraduate and Graduate):",
+      "list": [
+        "International English Language Testing System (IELTS)",
+        "Test of English as a Foreign Language (TOEFL)",
+        "Pearson Test of English (PTE)",
+        "Cambridge English: Advanced (CAE)"
+      ]
+    }
+  },
+  "intake": [
+    {
+      "name": "Semester 1 (February/March Intake):",
+      "details": [
+        "This is the primary intake for most courses.",
+        "It usually starts in late February or early March.",
+        "The application deadlines for this intake typically fall between October and December of the previous year."
+      ]
+    },
+    {
+      "name": "Semester 2 (July Intake)",
+      "details": [
+        "This is the secondary intake and offers fewer course options compared to Semester 1.",
+        "It usually starts in July.",
+        "The application deadlines for this intake typically fall between April and May."
+      ]
+    }
+  ],
+  "cost": {
+    "description": "The cost of studying in Australia can vary depending on the level of education and the institution you choose to attend. The overall cost of studying can be divided into two categories: Tuition Fees and Cost of Living. ",
+    "table_headings": [
+      "Level of Education in Australia",
+      "Costs for Indian students in AUD (Per year)"
+    ],
+    "cost_per_year": [
+      {
+        "degree": "Undergraduate Programs",
+        "costInGBP": "AUD 20,000 - 45,000"
+      },
+      {
+        "degree": "Postgraduate Programs",
+        "costInGBP": "AUD 22,000 - 50,000"
+      },
+      {
+        "degree": "PhD",
+        "costInGBP": "AUD 25,000- 55,000"
+      },
+      {
+        "degree": "Diploma",
+        "costInGBP": "AUD 10,000 - 25,000"
+      }
+    ]
+  },
+  "visa_requirements": {
+    "description": "<h6>Australian Student Visa (Subclass 500) Requirements</h6><ol><li><h6>Confirmation of Enrollment (CoE)</h6><ul><li><strong>CoE:</strong> Obtain a Confirmation of Enrollment (CoE) from an Australian educational institution. This document confirms your enrollment in a course registered under the Commonwealth Register of Institutions and Courses for Overseas Students (CRICOS).</li></ul></li><li><h6>Genuine Temporary Entrant (GTE) Requirement</h6><ul><li><strong>GTE Statement:</strong> Provide a statement that addresses your intention to stay in Australia temporarily for study purposes. This statement should include:<ul><li>Your ties to your home country.</li><li>Reasons for choosing Australia and the specific course.</li><li>Your career plans after completing the course.</li></ul></li></ul></li><li><h6>Financial Requirements</h6><ul><li><strong>Proof of Funds:</strong> Demonstrate that you have enough money to cover your tuition fees, living expenses, and travel costs. As of now, the living cost requirement is AUD 21,041 per year.</li><li><strong>Financial Documents:</strong> Bank statements, financial sponsorship letters, or evidence of educational loans can be used to show proof of funds.</li></ul></li><li><h6>English Language Proficiency</h6><ul><li><strong>Test Scores:</strong> Provide proof of English language proficiency through approved tests like IELTS, TOEFL, PTE, or equivalent. Some exemptions may apply if you are from an English-speaking country or have completed previous studies in English.</li></ul></li><li><h6>Overseas Student Health Cover (OSHC)</h6><ul><li><strong>Health Insurance:</strong> Obtain Overseas Student Health Cover (OSHC) for the duration of your stay in Australia. This health insurance is mandatory for international students.</li></ul></li><li><h6>Health and Character Requirements</h6><ul><li><strong>Health Examination:</strong> Undergo a health examination if required. This depends on your country of residence and the duration of your stay.</li><li><strong>Character Requirements:</strong> Provide a police certificate to demonstrate good character.</li></ul></li><li><h6>Valid Passport</h6><ul><li><strong>Passport:</strong> Ensure your passport is valid for the duration of your stay in Australia.</li></ul></li><li><h6>Visa Application</h6><ul><li><strong>Online Application:</strong> Complete the online visa application form on the Department of Home Affairs website.</li><li><strong>Application Fee:</strong> Pay the visa application fee. As of now, the cost is AUD 650.</li></ul></li><li><h6>Biometric Information</h6><ul><li><strong>Biometric Appointment:</strong> Schedule and attend a biometric appointment to provide your fingerprints and a photograph if required.</li></ul></li><li><h6>Supporting Documents</h6><p>Prepare the following supporting documents:</p><ul><li><strong>CoE:</strong> Confirmation of Enrollment.</li><li><strong>GTE Statement:</strong> Genuine Temporary Entrant statement.</li><li><strong>Proof of Funds:</strong> Bank statements or financial sponsorship letters.</li><li><strong>English Language Proficiency:</strong> Test results.</li><li><strong>OSHC:</strong> Proof of Overseas Student Health Cover.</li><li><strong>Health and Character Documents:</strong> Medical examination results and police certificates if applicable.</li><li><strong>Passport:</strong> Valid passport.</li><li><strong>Academic Documents:</strong> Certificates, transcripts, and any other academic qualifications.</li><li><strong>Photographs:</strong> Passport-sized photos that meet Australian visa requirements.</li></ul></li><li><h6>Attend the Visa Interview (if required)</h6><ul><li><strong>Interview:</strong> Some students may be required to attend an interview to verify their application details.</li></ul></li><li><h6>After the Application</h6><ul><li><strong>Decision:</strong> Wait for a decision on your visa application. Processing times can vary, so apply well in advance of your course start date.</li><li><strong>Visa Grant Notification:</strong> Once your visa is approved, you will receive a visa grant notification letter detailing your visa conditions.</li></ul></li></ol><h6>Tips for a Successful Application</h6><ul><li><strong>Apply Early:</strong> Start your visa application process as soon as you receive your CoE.</li><li><strong>Check Requirements:</strong> Ensure you meet all the requirements and provide accurate information.</li><li><strong>Prepare Documents:</strong> Gather all necessary documents in advance and ensure they meet the specified criteria.</li><li><strong>Seek Help:</strong> If you have any doubts, seek assistance from your university’s international office or a visa advisor.</li></ul>",
+    "list": []
+  },
+  "scholarship": {
+    "content": "<p>Australian universities and the Australian government offer a variety of scholarships for Indian students to help cover the cost of tuition, living expenses, and other associated costs.</p><ol><li>Government Scholarships<ul><li>Australia Awards Scholarships: Funded by the Australian Government, these scholarships are available for students from developing countries, including India. They cover tuition fees, living expenses, and travel costs.</li><li>Destination Australia Program: This scholarship aims to attract students to study in regional Australia. It provides financial support for both international and domestic students.</li></ul></li><li>University Scholarships<ul><li>Many Australian universities offer their scholarships to attract high-achieving international students. These scholarships can cover partial or full tuition fees and sometimes provide stipends for living expenses. Examples include:<ul><li>University of Sydney International Scholarships</li><li>Melbourne International Undergraduate Scholarship</li><li>Monash International Merit Scholarship</li></ul></li></ul></li></ol>"
+  },
+  "post_study": {
+    "description": "<div class=\"container\"><p>Australia provides several post-study work opportunities for international students, including Indian students, to gain valuable work experience after completing their studies. These opportunities are primarily facilitated through the Temporary Graduate Visa (subclass 485), which has two streams:</p><p>Temporary Graduate Visa (subclass 485)</p><ol><li>Graduate Work Stream<ul><li><strong>Eligibility:</strong> Available to international students who have recently graduated with skills and qualifications that relate to an occupation on Australia's Skilled Occupation List (SOL).</li><li><strong>Duration:</strong> Up to 18 months.</li><li><strong>Work Rights:</strong> Allows graduates to work full-time in Australia.</li><li><strong>Application Period:</strong> Must be applied for within six months of completing your course.</li><li><strong>Additional Information:</strong> This stream is suitable for students who have completed qualifications such as diplomas and trade certificates.</li></ul></li><li>Post-Study Work Stream<ul><li><strong>Eligibility:</strong> Available to international students who have recently graduated with a higher education degree (bachelor’s, master’s, or doctoral) from an Australian institution, regardless of their field of study.</li><li><strong>Duration:</strong><ul><li>Bachelor’s degree: Up to 2 years</li><li>Master’s by coursework: Up to 2 years</li><li>Master’s by research: Up to 3 years</li><li>Doctoral degree: Up to 4 years</li></ul></li><li><strong>Work Rights:</strong> Allows graduates to work full-time in Australia.</li><li><strong>Application Period:</strong> Must be applied for within six months of completing your course.</li><li><strong>Additional Information:</strong> This stream is suitable for students who have completed higher education qualifications.</li></ul></li></ol></div>",
+    "jobs": [
+      {
+        "jobTitle": "Information Technology",
+        "averageAnnualSalaryGBP": "$85,000 - $120,000"
+      },
+      {
+        "jobTitle": "Engineering",
+        "averageAnnualSalaryGBP": "$70,000 - $110,000"
+      },
+      {
+        "jobTitle": "Healthcare (Nurses)",
+        "averageAnnualSalaryGBP": "$65,000 - $85,000"
+      },
+      {
+        "jobTitle": "Healthcare (Doctors)",
+        "averageAnnualSalaryGBP": "$120,000 - $250,000"
+      },
+      {
+        "jobTitle": "Accounting",
+        "averageAnnualSalaryGBP": "$60,000 - $90,000"
+      },
+      {
+        "jobTitle": "Marketing",
+        "averageAnnualSalaryGBP": "$70,000 - $100,000"
+      },
+      {
+        "jobTitle": "Education (Teachers)",
+        "averageAnnualSalaryGBP": "$65,000 - $95,000"
+      }
+    ]
+  }
+}
