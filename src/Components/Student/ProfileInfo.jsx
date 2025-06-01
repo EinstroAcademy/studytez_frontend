@@ -463,7 +463,8 @@ toast.loading("Saving..." ,{duration:Infinity})
                             <button className='deg-btn' onClick={() => setIsQualification(!isQualification)}>{user?.qualification ? 'Edit Qualification' : "Add Qualification"}</button>
                         </div>
                         {
-                            user?.qualification && isQualification ? <div className='my-3'>
+                            user?.qualification && isQualification ? 
+                            <div className='my-3'>
                                 <Row>
                                     <Col md={6}>
                                         <FormGroup>
@@ -506,7 +507,8 @@ toast.loading("Saving..." ,{duration:Infinity})
                                     <Button className='save-btn' onClick={() => updateUserQualification()}>Save</Button>
                                 </div>
                             </div> :
-                                isQualification ? <div className='my-3'>
+                                isQualification ? 
+                                <div className='my-3'>
                                     <Row>
                                         <Col md={6}>
                                             <FormGroup>

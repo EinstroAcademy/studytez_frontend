@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// export const NodeURL = 'http://localhost:4000';
-export const NodeURL = 'https://einstro-backend-t1zr.onrender.com';
+export const NodeURL = 'http://localhost:4000';
+// export const NodeURL = 'https://einstro-backend-t1zr.onrender.com';
 // export const NodeURL = 'https://api.einstrostudyabroad.com';
 
 
@@ -28,7 +28,6 @@ const request = (options) => {
 			- Pushes the URL to Login Page -> "/login"
 		*/
 
-    console.log(response)
     if (response?.data?.status === '00') {
       localStorage.removeItem('app-token');
       window.location = '/';

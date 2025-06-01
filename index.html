@@ -73,7 +73,7 @@
     const token = params.get("token");
 
     if (token && window.opener) {
-      window.opener.postMessage({ token }, "http://localhost:5173");
+      window.opener.postMessage({ token }, window.location.origin);
       window.close();
     }
     </script>

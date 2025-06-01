@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { redirect } from 'react-router-dom';
-import { NodeURL } from '../../api/api';
+import request, { NodeURL } from '../../api/api';
 
 
 
@@ -16,13 +16,16 @@ const initialState = {
 export const fetchUser = () => async (dispatch) => {
   dispatch(fetchUserStart());
   try {
-    const response = await axios.post(`${NodeURL}/get/user`,{token:localStorage.getItem('app-token')},{
-        headers:{
-            Authorization:localStorage.getItem('app-token')
-        }
-    });
-    dispatch(fetchUserSuccess(response.data.user));
-    if(response.data.status==="00"){
+    const response = await request({
+      url:'/get/user',
+      method:'POST',
+      data:{token:localStorage.getItem('app-token')}
+    })
+
+    console.log(response)
+    
+    dispatch(fetchUserSuccess(response.user));
+    if(response.status==="00"){
         localStorage.removeItem('app-token')
     }
   } catch (error) {

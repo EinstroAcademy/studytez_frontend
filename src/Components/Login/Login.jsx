@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import './login.css'
 import loginImg from '../../Images/home/login.png'
 import { Link, useNavigate } from "react-router-dom";
-import request from "../../api/api";
+import request, { NodeURL } from "../../api/api";
 import { useDispatch, useSelector } from "react-redux";
 import { oAuthToken, setToken } from "../../redux/features/loginSlice";
 import toast from "react-hot-toast";
@@ -36,12 +36,13 @@ function Login() {
     })
   }
 
+
   function loginWithGoogle() {
-    const oauthUrl = "http://localhost:4000/auth/google";
+    const oauthUrl = `${NodeURL}/auth/google`;
     const popup = window.open(oauthUrl, "_blank", "width=500,height=600");
 
     window.addEventListener("message", function (event) {
-      if (event.origin !== "http://localhost:5173") return;
+      if (event.origin !== `${window.location.origin}`) return;
   
       const { token } = event.data;
       if (token) {
