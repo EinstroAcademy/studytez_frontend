@@ -69,24 +69,24 @@ function BlogDetails() {
     request({
       url: '/client/blog/details',
       method: 'POST',
-      data: { blogId: location.state.rowId },
+      data: { blogId: location?.state?.rowId },
     }).then((res) => {
       if (res.status === 1) {
         setBlogDetails(res.response);
       } else if (res && +res.status === 0) {
         toast.error(res.message)
       }
-    })
+    }).catch((err)=>
+    console.log(err))
   }
 
   useEffect(() => {
-    if (location.state.rowId) {
+    if (location?.state?.rowId) {
       fetchBlogDetails()
     }
-    window.scrollTo(0, 0);
-  }, [params]);
+  }, [location?.state?.rowId,params]);
 
-  console.log(params);
+  console.log(location);
   return (
     <Layout>
       <Helmet>

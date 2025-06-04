@@ -73,7 +73,7 @@ function Media() {
           <div className='row'>
             {
               blogList.length > 0 ? blogList.map((blog) => {
-                return <div className='col-12 mt-5' onClick={()=>navigate(`/blog/${blog.routeId}`,{state:{rowId:blog._id}})}>
+                return <div className='col-12 mt-5' onClick={()=> navigate(`/blog/${blog?.routeId}`,{state:{rowId:blog?._id}})}>
                   <div className="d-flex">
                     <div class="px-2">
                       <img src={`${NodeURL}/${blog.image}`} class="media-img" />
