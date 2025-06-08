@@ -173,16 +173,26 @@ function University() {
                           toggle("4");
                         }}
                       >
+                        Cost
+                      </NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink
+                        className={`${activeTab === "5" ? "active" : ""}`}
+                        onClick={() => {
+                          toggle("5");
+                        }}
+                      >
                         Requirements
                       </NavLink>
                     </NavItem>
                   </Nav>
                 </div>
                 <section>
-                  <div className="container p-0 mt-5">
-                    <div className="container">
+                  <div className="container p-0 mt-1">
+                    <div className="container p-0">
                       <div className="row mobile-row">
-                        <div className="">
+                        <div className="p-0">
                           <TabContent
                             activeTab={activeTab}
                             className="study_tab_content"
@@ -264,18 +274,27 @@ function University() {
                               className="study_tab_pane"
                               tabId="2"
                             >
-                              <div dangerouslySetInnerHTML={{__html:universityDetail?.details}}>
+                              <div className="dangerous-html-p" dangerouslySetInnerHTML={{__html:universityDetail?.details}}>
 
                               </div>
                             </TabPane>
                             <TabPane
                               className="study_tab_pane"
                               tabId="3"
-                            ></TabPane>
+                            >
+                            <div  className="dangerous-html-p" dangerouslySetInnerHTML={{__html:universityDetail?.scholarship}}></div></TabPane>
                             <TabPane
                               className="study_tab_pane"
                               tabId="4"
-                            ></TabPane>
+                            >
+                              <div className="dangerous-html-p" dangerouslySetInnerHTML={{__html:universityDetail?.cost}}></div>
+                            </TabPane>
+                            <TabPane
+                              className="study_tab_pane"
+                              tabId="5"
+                            >
+                              <div className="dangerous-html-p" dangerouslySetInnerHTML={{__html:universityDetail?.requirements}}></div>
+                            </TabPane>
                           </TabContent>
                         </div>
                       </div>

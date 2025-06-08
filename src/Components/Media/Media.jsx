@@ -18,7 +18,7 @@ function Media() {
       method:'POST',
       data:{
         skip:0,
-        limit:2
+        limit:4
       }
     }).then((res)=>{
       if(res.status===1){
@@ -37,7 +37,7 @@ function Media() {
     <div class="container">
       <h3 class="text-center media">Media</h3>
       <div class="row">
-        <div className="col-6 mt-5">
+        {/* <div className="col-6 mt-5">
           <div className='row'>
             <div className='col-12 mt-5'>
               <div className="d-flex">
@@ -68,7 +68,7 @@ function Media() {
           </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="col-6 mt-5">
           <div className='row'>
             {
@@ -124,11 +124,6 @@ function Media() {
       </div>
 
       <div class="row mt-5">
-        <div class="col-6">
-          <div>
-            <button class="view-btn">View all News</button>
-          </div>
-        </div>
         <div class="col-6">
           <div>
             <button class="view-btn" onClick={()=>navigate('/blog')}>View all Blogs</button>

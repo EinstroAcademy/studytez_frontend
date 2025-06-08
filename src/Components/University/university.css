@@ -183,3 +183,7 @@
     height: 100%;
     object-fit: cover;
   }
+
+  .dangerous-html-p p{
+    padding: 5px 0px;
+  }
